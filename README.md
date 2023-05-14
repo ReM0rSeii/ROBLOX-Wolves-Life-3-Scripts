@@ -1,5 +1,5 @@
 # WL3Scripts
 Scripts andor Guis for the ROBLOX game Wolves Life 3.
-You're always free to talk to me if your curious on a script.
+Putting this out there for any friends.
 
-My discord: Flaz_erx#9591
+Discord: Flaz_erx#9591
