@@ -1,0 +1,4214 @@
+-- WL3 GUI By Flaz_erx. Not all scripts are by me.
+
+-- Instances:
+
+local Scree = Instance.new("ScreenGui")
+local Maine = Instance.new("Frame")
+local i = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local a = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local r = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local g = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local d = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local u = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local d_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local y = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local fruieeenddd = Instance.new("TextLabel")
+local Categories = Instance.new("Folder")
+local Character = Instance.new("ScrollingFrame")
+local brhhhwhat = Instance.new("TextButton")
+local brhhhwhat_2 = Instance.new("UICorner")
+local brhhhwhat_3 = Instance.new("TextButton")
+local brhhhwhat_4 = Instance.new("UICorner")
+local brhhhwhat_5 = Instance.new("TextButton")
+local brhhhwhat_6 = Instance.new("UICorner")
+local brhhhwhat_7 = Instance.new("TextButton")
+local brhhhwhat_8 = Instance.new("UICorner")
+local brhhhwhat_9 = Instance.new("TextButton")
+local brhhhwhat_10 = Instance.new("UICorner")
+local brhhhwhat_11 = Instance.new("TextButton")
+local brhhhwhat_12 = Instance.new("UICorner")
+local brhhhwhat_13 = Instance.new("TextButton")
+local brhhhwhat_14 = Instance.new("UICorner")
+local brhhhwhat_15 = Instance.new("TextLabel")
+local brhhhwhat_16 = Instance.new("TextButton")
+local brhhhwhat_17 = Instance.new("UICorner")
+local brhhhwhat_18 = Instance.new("TextButton")
+local brhhhwhat_19 = Instance.new("UICorner")
+local brhhhwhat_20 = Instance.new("TextButton")
+local brhhhwhat_21 = Instance.new("UICorner")
+local brhhhwhat_22 = Instance.new("TextButton")
+local brhhhwhat_23 = Instance.new("UICorner")
+local ColorToggles = Instance.new("ScrollingFrame")
+local gggg = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local gggg_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local gggg_3 = Instance.new("TextLabel")
+local gggg_4 = Instance.new("TextLabel")
+local Discord = Instance.new("ScrollingFrame")
+local you = Instance.new("TextLabel")
+local you_2 = Instance.new("TextLabel")
+local you_3 = Instance.new("TextLabel")
+local Extras = Instance.new("ScrollingFrame")
+local warn = Instance.new("TextButton")
+local warn_2 = Instance.new("UICorner")
+local warn_3 = Instance.new("TextButton")
+local warn_4 = Instance.new("UICorner")
+local warn_5 = Instance.new("TextButton")
+local warn_6 = Instance.new("UICorner")
+local warn_7 = Instance.new("TextButton")
+local warn_8 = Instance.new("UICorner")
+local warn_9 = Instance.new("TextButton")
+local warn_10 = Instance.new("UICorner")
+local warn_11 = Instance.new("TextButton")
+local warn_12 = Instance.new("UICorner")
+local warn_13 = Instance.new("TextLabel")
+local warn_14 = Instance.new("TextButton")
+local warn_15 = Instance.new("UICorner")
+local FullCharacterCustomizer = Instance.new("ScrollingFrame")
+local yup = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local yup_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local yup_3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local yup_4 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local yup_5 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local yup_6 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local yup_7 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local yup_8 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local yup_9 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local yup_10 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local LoadF = Instance.new("ScrollingFrame")
+local gesg = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local fsdesr = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local grgrrry = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local gregir = Instance.new("TextLabel")
+local SaveF = Instance.new("ScrollingFrame")
+local tt = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local t = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local o = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Scripts = Instance.new("ScrollingFrame")
+local ck = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local n = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local a_2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local d_3 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local ic = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local sl = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local h = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local s = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UIGradient_2 = Instance.new("UIGradient")
+
+--Properties:
+
+Scree.Name = "Scree"
+Scree.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Scree.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Scree.ResetOnSpawn = false
+
+Maine.Name = "Maine"
+Maine.Parent = Scree
+Maine.BackgroundColor3 = Color3.fromRGB(50, 54, 75)
+Maine.BorderColor3 = Color3.fromRGB(16, 24, 36)
+Maine.BorderSizePixel = 10
+Maine.Position = UDim2.new(0.287815124, 0, 0.309876561, 0)
+Maine.Size = UDim2.new(0, 605, 0, 308)
+
+i.Name = "i"
+i.Parent = Maine
+i.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+i.BackgroundTransparency = 0.600
+i.Position = UDim2.new(0.0165289249, 0, 0.918801844, 0)
+i.Size = UDim2.new(0, 231, 0, 17)
+i.Font = Enum.Font.FredokaOne
+i.Text = "DISCORD"
+i.TextColor3 = Color3.fromRGB(88, 0, 195)
+i.TextScaled = true
+i.TextSize = 14.000
+i.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 18)
+UICorner.Parent = i
+
+a.Name = "a"
+a.Parent = Maine
+a.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+a.BackgroundTransparency = 0.600
+a.Position = UDim2.new(0.0165289249, 0, 0.613931954, 0)
+a.Size = UDim2.new(0, 231, 0, 17)
+a.Font = Enum.Font.FredokaOne
+a.Text = "CHARACTER"
+a.TextColor3 = Color3.fromRGB(88, 0, 195)
+a.TextScaled = true
+a.TextSize = 14.000
+a.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 18)
+UICorner_2.Parent = a
+
+r.Name = "r"
+r.Parent = Maine
+r.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+r.BackgroundTransparency = 0.600
+r.Position = UDim2.new(0.0165289249, 0, 0.824743092, 0)
+r.Size = UDim2.new(0, 231, 0, 17)
+r.Font = Enum.Font.FredokaOne
+r.Text = "FULL CHARACTER CUSTOMIZER"
+r.TextColor3 = Color3.fromRGB(88, 0, 195)
+r.TextScaled = true
+r.TextSize = 14.000
+r.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 18)
+UICorner_3.Parent = r
+
+g.Name = "g"
+g.Parent = Maine
+g.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g.BackgroundTransparency = 0.600
+g.Position = UDim2.new(0.0165289249, 0, 0.293591499, 0)
+g.Size = UDim2.new(0, 231, 0, 17)
+g.Font = Enum.Font.FredokaOne
+g.Text = "COLOR TOGGLES"
+g.TextColor3 = Color3.fromRGB(88, 0, 195)
+g.TextScaled = true
+g.TextSize = 14.000
+g.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 18)
+UICorner_4.Parent = g
+
+d.Name = "d"
+d.Parent = Maine
+d.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+d.BackgroundTransparency = 0.600
+d.Position = UDim2.new(0.0165289249, 0, 0.511810303, 0)
+d.Size = UDim2.new(0, 231, 0, 17)
+d.Font = Enum.Font.FredokaOne
+d.Text = "LOAD FILE"
+d.TextColor3 = Color3.fromRGB(88, 0, 195)
+d.TextScaled = true
+d.TextSize = 14.000
+d.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 18)
+UICorner_5.Parent = d
+
+u.Name = "u"
+u.Parent = Maine
+u.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u.BackgroundTransparency = 0.600
+u.Position = UDim2.new(0.0165289249, 0, 0.181989998, 0)
+u.Size = UDim2.new(0, 231, 0, 17)
+u.Font = Enum.Font.FredokaOne
+u.Text = "SCRIPTS"
+u.TextColor3 = Color3.fromRGB(88, 0, 195)
+u.TextScaled = true
+u.TextSize = 14.000
+u.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 18)
+UICorner_6.Parent = u
+
+d_2.Name = "d"
+d_2.Parent = Maine
+d_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+d_2.BackgroundTransparency = 0.600
+d_2.Position = UDim2.new(0.0165289249, 0, 0.720138729, 0)
+d_2.Size = UDim2.new(0, 231, 0, 17)
+d_2.Font = Enum.Font.FredokaOne
+d_2.Text = "EXTRAS"
+d_2.TextColor3 = Color3.fromRGB(88, 0, 195)
+d_2.TextScaled = true
+d_2.TextSize = 14.000
+d_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 18)
+UICorner_7.Parent = d_2
+
+y.Name = "y"
+y.Parent = Maine
+y.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+y.BackgroundTransparency = 0.600
+y.Position = UDim2.new(0.0165289249, 0, 0.409688979, 0)
+y.Size = UDim2.new(0, 231, 0, 17)
+y.Font = Enum.Font.FredokaOne
+y.Text = "SAVE FILE"
+y.TextColor3 = Color3.fromRGB(88, 0, 195)
+y.TextScaled = true
+y.TextSize = 14.000
+y.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 18)
+UICorner_8.Parent = y
+
+fruieeenddd.Name = "fruieeenddd"
+fruieeenddd.Parent = Maine
+fruieeenddd.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fruieeenddd.BackgroundTransparency = 0.700
+fruieeenddd.BorderSizePixel = 0
+fruieeenddd.Size = UDim2.new(0, 251, 0, 45)
+fruieeenddd.Font = Enum.Font.FredokaOne
+fruieeenddd.Text = "Wolves Life 3 GUI"
+fruieeenddd.TextColor3 = Color3.fromRGB(0, 0, 0)
+fruieeenddd.TextSize = 29.000
+fruieeenddd.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+fruieeenddd.TextWrapped = true
+
+Categories.Name = "Categories"
+Categories.Parent = Maine
+
+Character.Name = "Character"
+Character.Parent = Categories
+Character.Active = true
+Character.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Character.BackgroundTransparency = 0.650
+Character.BorderSizePixel = 0
+Character.Position = UDim2.new(0.414876044, 0, 0, 0)
+Character.Size = UDim2.new(0, 354, 0, 308)
+Character.Visible = false
+Character.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Character.CanvasSize = UDim2.new(0, 0, 1, 0)
+Character.ScrollBarThickness = 6
+
+brhhhwhat.Name = "brhhhwhat"
+brhhhwhat.Parent = Character
+brhhhwhat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat.BackgroundTransparency = 0.600
+brhhhwhat.Position = UDim2.new(0.171896204, 0, 0.0960491225, 0)
+brhhhwhat.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat.Font = Enum.Font.FredokaOne
+brhhhwhat.Text = "Ears Visible [FOR DRAGON]"
+brhhhwhat.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat.TextScaled = true
+brhhhwhat.TextSize = 14.000
+brhhhwhat.TextWrapped = true
+
+brhhhwhat_2.CornerRadius = UDim.new(0, 18)
+brhhhwhat_2.Name = "brhhhwhat"
+brhhhwhat_2.Parent = brhhhwhat
+
+brhhhwhat_3.Name = "brhhhwhat"
+brhhhwhat_3.Parent = Character
+brhhhwhat_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_3.BackgroundTransparency = 0.600
+brhhhwhat_3.Position = UDim2.new(0.171896204, 0, 0.175740421, 0)
+brhhhwhat_3.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_3.Font = Enum.Font.FredokaOne
+brhhhwhat_3.Text = "Disable Dragon Wings"
+brhhhwhat_3.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_3.TextScaled = true
+brhhhwhat_3.TextSize = 14.000
+brhhhwhat_3.TextWrapped = true
+
+brhhhwhat_4.CornerRadius = UDim.new(0, 18)
+brhhhwhat_4.Name = "brhhhwhat"
+brhhhwhat_4.Parent = brhhhwhat_3
+
+brhhhwhat_5.Name = "brhhhwhat"
+brhhhwhat_5.Parent = Character
+brhhhwhat_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_5.BackgroundTransparency = 0.600
+brhhhwhat_5.Position = UDim2.new(0.174721062, 0, 0.32920143, 0)
+brhhhwhat_5.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_5.Font = Enum.Font.FredokaOne
+brhhhwhat_5.Text = "Disable Ocean"
+brhhhwhat_5.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_5.TextScaled = true
+brhhhwhat_5.TextSize = 14.000
+brhhhwhat_5.TextWrapped = true
+
+brhhhwhat_6.CornerRadius = UDim.new(0, 18)
+brhhhwhat_6.Name = "brhhhwhat"
+brhhhwhat_6.Parent = brhhhwhat_5
+
+brhhhwhat_7.Name = "brhhhwhat"
+brhhhwhat_7.Parent = Character
+brhhhwhat_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_7.BackgroundTransparency = 0.600
+brhhhwhat_7.Position = UDim2.new(0.174721062, 0, 0.414073974, 0)
+brhhhwhat_7.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_7.Font = Enum.Font.FredokaOne
+brhhhwhat_7.Text = "Disable Back Legs"
+brhhhwhat_7.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_7.TextScaled = true
+brhhhwhat_7.TextSize = 14.000
+brhhhwhat_7.TextWrapped = true
+
+brhhhwhat_8.CornerRadius = UDim.new(0, 18)
+brhhhwhat_8.Name = "brhhhwhat"
+brhhhwhat_8.Parent = brhhhwhat_7
+
+brhhhwhat_9.Name = "brhhhwhat"
+brhhhwhat_9.Parent = Character
+brhhhwhat_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_9.BackgroundTransparency = 0.600
+brhhhwhat_9.Position = UDim2.new(0.174721062, 0, 0.568275273, 0)
+brhhhwhat_9.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_9.Font = Enum.Font.FredokaOne
+brhhhwhat_9.Text = "Invisible Character"
+brhhhwhat_9.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_9.TextScaled = true
+brhhhwhat_9.TextSize = 14.000
+brhhhwhat_9.TextWrapped = true
+
+brhhhwhat_10.CornerRadius = UDim.new(0, 18)
+brhhhwhat_10.Name = "brhhhwhat"
+brhhhwhat_10.Parent = brhhhwhat_9
+
+brhhhwhat_11.Name = "brhhhwhat"
+brhhhwhat_11.Parent = Character
+brhhhwhat_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_11.BackgroundTransparency = 0.600
+brhhhwhat_11.Position = UDim2.new(0.174721062, 0, 0.655861616, 0)
+brhhhwhat_11.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_11.Font = Enum.Font.FredokaOne
+brhhhwhat_11.Text = "Visible Character"
+brhhhwhat_11.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_11.TextScaled = true
+brhhhwhat_11.TextSize = 14.000
+brhhhwhat_11.TextWrapped = true
+
+brhhhwhat_12.CornerRadius = UDim.new(0, 18)
+brhhhwhat_12.Name = "brhhhwhat"
+brhhhwhat_12.Parent = brhhhwhat_11
+
+brhhhwhat_13.Name = "brhhhwhat"
+brhhhwhat_13.Parent = Character
+brhhhwhat_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_13.BackgroundTransparency = 0.600
+brhhhwhat_13.Position = UDim2.new(0.171896204, 0, 0.25247094, 0)
+brhhhwhat_13.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_13.Font = Enum.Font.FredokaOne
+brhhhwhat_13.Text = "Disable Dragon Wings 2"
+brhhhwhat_13.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_13.TextScaled = true
+brhhhwhat_13.TextSize = 14.000
+brhhhwhat_13.TextWrapped = true
+
+brhhhwhat_14.CornerRadius = UDim.new(0, 18)
+brhhhwhat_14.Name = "brhhhwhat"
+brhhhwhat_14.Parent = brhhhwhat_13
+
+brhhhwhat_15.Name = "brhhhwhat"
+brhhhwhat_15.Parent = Character
+brhhhwhat_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_15.BackgroundTransparency = 0.700
+brhhhwhat_15.BorderSizePixel = 0
+brhhhwhat_15.Position = UDim2.new(0.00409954786, 0, 0, 0)
+brhhhwhat_15.Size = UDim2.new(0, 352, 0, 20)
+brhhhwhat_15.Font = Enum.Font.FredokaOne
+brhhhwhat_15.Text = "CHARACTER"
+brhhhwhat_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_15.TextScaled = true
+brhhhwhat_15.TextSize = 29.000
+brhhhwhat_15.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+brhhhwhat_15.TextWrapped = true
+
+brhhhwhat_16.Name = "brhhhwhat"
+brhhhwhat_16.Parent = Character
+brhhhwhat_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_16.BackgroundTransparency = 0.600
+brhhhwhat_16.Position = UDim2.new(0.174721062, 0, 0.493024915, 0)
+brhhhwhat_16.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_16.Font = Enum.Font.FredokaOne
+brhhhwhat_16.Text = "Disable Dragon Horns"
+brhhhwhat_16.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_16.TextScaled = true
+brhhhwhat_16.TextSize = 14.000
+brhhhwhat_16.TextWrapped = true
+
+brhhhwhat_17.CornerRadius = UDim.new(0, 18)
+brhhhwhat_17.Name = "brhhhwhat"
+brhhhwhat_17.Parent = brhhhwhat_16
+
+brhhhwhat_18.Name = "brhhhwhat"
+brhhhwhat_18.Parent = Character
+brhhhwhat_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_18.BackgroundTransparency = 0.600
+brhhhwhat_18.Position = UDim2.new(0.174721062, 0, 0.740277231, 0)
+brhhhwhat_18.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_18.Font = Enum.Font.FredokaOne
+brhhhwhat_18.Text = "Enable Dragon Wings"
+brhhhwhat_18.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_18.TextScaled = true
+brhhhwhat_18.TextSize = 14.000
+brhhhwhat_18.TextWrapped = true
+
+brhhhwhat_19.CornerRadius = UDim.new(0, 18)
+brhhhwhat_19.Name = "brhhhwhat"
+brhhhwhat_19.Parent = brhhhwhat_18
+
+brhhhwhat_20.Name = "brhhhwhat"
+brhhhwhat_20.Parent = Character
+brhhhwhat_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_20.BackgroundTransparency = 0.600
+brhhhwhat_20.Position = UDim2.new(0.171896204, 0, 0.831186354, 0)
+brhhhwhat_20.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_20.Font = Enum.Font.FredokaOne
+brhhhwhat_20.Text = "Enable Dragon Wings 2"
+brhhhwhat_20.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_20.TextScaled = true
+brhhhwhat_20.TextSize = 14.000
+brhhhwhat_20.TextWrapped = true
+
+brhhhwhat_21.CornerRadius = UDim.new(0, 18)
+brhhhwhat_21.Name = "brhhhwhat"
+brhhhwhat_21.Parent = brhhhwhat_20
+
+brhhhwhat_22.Name = "brhhhwhat"
+brhhhwhat_22.Parent = Character
+brhhhwhat_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+brhhhwhat_22.BackgroundTransparency = 0.600
+brhhhwhat_22.Position = UDim2.new(0.174721062, 0, 0.922095478, 0)
+brhhhwhat_22.Size = UDim2.new(0, 231, 0, 17)
+brhhhwhat_22.Font = Enum.Font.FredokaOne
+brhhhwhat_22.Text = "Enable Ocean"
+brhhhwhat_22.TextColor3 = Color3.fromRGB(88, 0, 195)
+brhhhwhat_22.TextScaled = true
+brhhhwhat_22.TextSize = 14.000
+brhhhwhat_22.TextWrapped = true
+
+brhhhwhat_23.CornerRadius = UDim.new(0, 18)
+brhhhwhat_23.Name = "brhhhwhat"
+brhhhwhat_23.Parent = brhhhwhat_22
+
+ColorToggles.Name = "ColorToggles"
+ColorToggles.Parent = Categories
+ColorToggles.Active = true
+ColorToggles.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ColorToggles.BackgroundTransparency = 0.650
+ColorToggles.BorderSizePixel = 0
+ColorToggles.Position = UDim2.new(0.414876044, 0, 0, 0)
+ColorToggles.Size = UDim2.new(0, 354, 0, 308)
+ColorToggles.Visible = false
+ColorToggles.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+ColorToggles.CanvasSize = UDim2.new(0, 0, 1, 0)
+ColorToggles.ScrollBarThickness = 6
+ColorToggles.ScrollingEnabled = false
+
+gggg.Name = "gggg"
+gggg.Parent = ColorToggles
+gggg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gggg.BackgroundTransparency = 0.600
+gggg.Position = UDim2.new(0.17189616, 0, 0.167477727, 0)
+gggg.Size = UDim2.new(0, 231, 0, 23)
+gggg.Font = Enum.Font.FredokaOne
+gggg.Text = "Rainbow Fade"
+gggg.TextColor3 = Color3.fromRGB(88, 0, 195)
+gggg.TextScaled = true
+gggg.TextSize = 14.000
+gggg.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 18)
+UICorner_9.Parent = gggg
+
+gggg_2.Name = "gggg"
+gggg_2.Parent = ColorToggles
+gggg_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gggg_2.BackgroundTransparency = 0.600
+gggg_2.Position = UDim2.new(0.17189616, 0, 0.280789435, 0)
+gggg_2.Size = UDim2.new(0, 231, 0, 23)
+gggg_2.Font = Enum.Font.FredokaOne
+gggg_2.Text = "White Fade"
+gggg_2.TextColor3 = Color3.fromRGB(88, 0, 195)
+gggg_2.TextScaled = true
+gggg_2.TextSize = 14.000
+gggg_2.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 18)
+UICorner_10.Parent = gggg_2
+
+gggg_3.Name = "gggg"
+gggg_3.Parent = ColorToggles
+gggg_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gggg_3.BackgroundTransparency = 0.700
+gggg_3.BorderSizePixel = 0
+gggg_3.Position = UDim2.new(0.0040995637, 0, 0, 0)
+gggg_3.Size = UDim2.new(0, 352, 0, 20)
+gggg_3.Font = Enum.Font.FredokaOne
+gggg_3.Text = "COLOR TOGGLES"
+gggg_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+gggg_3.TextScaled = true
+gggg_3.TextSize = 29.000
+gggg_3.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+gggg_3.TextWrapped = true
+
+gggg_4.Name = "gggg"
+gggg_4.Parent = ColorToggles
+gggg_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gggg_4.BackgroundTransparency = 0.700
+gggg_4.BorderSizePixel = 0
+gggg_4.Position = UDim2.new(0.00409952784, 0, 0.0649350658, 0)
+gggg_4.Size = UDim2.new(0, 352, 0, 14)
+gggg_4.Font = Enum.Font.FredokaOne
+gggg_4.Text = "Rejoin the server to disable.."
+gggg_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+gggg_4.TextScaled = true
+gggg_4.TextSize = 29.000
+gggg_4.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+gggg_4.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = Categories
+Discord.Active = true
+Discord.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Discord.BackgroundTransparency = 0.650
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.414876044, 0, 0, 0)
+Discord.Size = UDim2.new(0, 354, 0, 308)
+Discord.Visible = false
+Discord.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Discord.CanvasSize = UDim2.new(0, 0, 1, 0)
+Discord.ScrollBarThickness = 6
+
+you.Name = "you"
+you.Parent = Discord
+you.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+you.BackgroundTransparency = 0.700
+you.BorderSizePixel = 0
+you.Position = UDim2.new(0.00409954786, 0, 0, 0)
+you.Size = UDim2.new(0, 352, 0, 20)
+you.Font = Enum.Font.FredokaOne
+you.Text = "DISCORD"
+you.TextColor3 = Color3.fromRGB(0, 0, 0)
+you.TextScaled = true
+you.TextSize = 29.000
+you.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+you.TextWrapped = true
+
+you_2.Name = "you"
+you_2.Parent = Discord
+you_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+you_2.BackgroundTransparency = 0.700
+you_2.BorderSizePixel = 0
+you_2.Position = UDim2.new(0.00409952784, 0, 0.0649350584, 0)
+you_2.Size = UDim2.new(0, 352, 0, 170)
+you_2.Font = Enum.Font.FredokaOne
+you_2.Text = "Flaz_erx#9591"
+you_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+you_2.TextScaled = true
+you_2.TextSize = 29.000
+you_2.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+you_2.TextWrapped = true
+
+you_3.Name = "you"
+you_3.Parent = Discord
+you_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+you_3.BackgroundTransparency = 0.700
+you_3.BorderSizePixel = 0
+you_3.Position = UDim2.new(0.00409952784, 0, 0.636363626, 0)
+you_3.Size = UDim2.new(0, 352, 0, 40)
+you_3.Font = Enum.Font.FredokaOne
+you_3.Text = "Contact Me."
+you_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+you_3.TextSize = 32.000
+you_3.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+you_3.TextWrapped = true
+
+Extras.Name = "Extras"
+Extras.Parent = Categories
+Extras.Active = true
+Extras.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Extras.BackgroundTransparency = 0.650
+Extras.BorderSizePixel = 0
+Extras.Position = UDim2.new(0.414876044, 0, 0, 0)
+Extras.Size = UDim2.new(0, 354, 0, 308)
+Extras.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Extras.CanvasSize = UDim2.new(0, 0, 1, 0)
+Extras.ScrollBarThickness = 6
+
+warn.Name = "warn"
+warn.Parent = Extras
+warn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn.BackgroundTransparency = 0.600
+warn.Position = UDim2.new(0.171896204, 0, 0.112282887, 0)
+warn.Size = UDim2.new(0, 231, 0, 21)
+warn.Font = Enum.Font.FredokaOne
+warn.Text = "PEACE GUI"
+warn.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn.TextScaled = true
+warn.TextSize = 14.000
+warn.TextWrapped = true
+
+warn_2.CornerRadius = UDim.new(0, 18)
+warn_2.Name = "warn"
+warn_2.Parent = warn
+
+warn_3.Name = "warn"
+warn_3.Parent = Extras
+warn_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_3.BackgroundTransparency = 0.600
+warn_3.Position = UDim2.new(0.171896204, 0, 0.229331076, 0)
+warn_3.Size = UDim2.new(0, 231, 0, 21)
+warn_3.Font = Enum.Font.FredokaOne
+warn_3.Text = "FF V3"
+warn_3.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_3.TextScaled = true
+warn_3.TextSize = 14.000
+warn_3.TextWrapped = true
+
+warn_4.CornerRadius = UDim.new(0, 18)
+warn_4.Name = "warn"
+warn_4.Parent = warn_3
+
+warn_5.Name = "warn"
+warn_5.Parent = Extras
+warn_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_5.BackgroundTransparency = 0.600
+warn_5.Position = UDim2.new(0.171896204, 0, 0.33690533, 0)
+warn_5.Size = UDim2.new(0, 231, 0, 21)
+warn_5.Font = Enum.Font.FredokaOne
+warn_5.Text = "OPFINALITY"
+warn_5.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_5.TextScaled = true
+warn_5.TextSize = 14.000
+warn_5.TextWrapped = true
+
+warn_6.CornerRadius = UDim.new(0, 18)
+warn_6.Name = "warn"
+warn_6.Parent = warn_5
+
+warn_7.Name = "warn"
+warn_7.Parent = Extras
+warn_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_7.BackgroundTransparency = 0.600
+warn_7.Position = UDim2.new(0.171896204, 0, 0.442034841, 0)
+warn_7.Size = UDim2.new(0, 231, 0, 21)
+warn_7.Font = Enum.Font.FredokaOne
+warn_7.Text = "OPENGUI"
+warn_7.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_7.TextScaled = true
+warn_7.TextSize = 14.000
+warn_7.TextWrapped = true
+
+warn_8.CornerRadius = UDim.new(0, 18)
+warn_8.Name = "warn"
+warn_8.Parent = warn_7
+
+warn_9.Name = "warn"
+warn_9.Parent = Extras
+warn_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_9.BackgroundTransparency = 0.600
+warn_9.Position = UDim2.new(0.171896204, 0, 0.550525904, 0)
+warn_9.Size = UDim2.new(0, 231, 0, 21)
+warn_9.Font = Enum.Font.FredokaOne
+warn_9.Text = "INFINITE YIELD"
+warn_9.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_9.TextScaled = true
+warn_9.TextSize = 14.000
+warn_9.TextWrapped = true
+
+warn_10.CornerRadius = UDim.new(0, 18)
+warn_10.Name = "warn"
+warn_10.Parent = warn_9
+
+warn_11.Name = "warn"
+warn_11.Parent = Extras
+warn_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_11.BackgroundTransparency = 0.600
+warn_11.Position = UDim2.new(0.171896204, 0, 0.659017086, 0)
+warn_11.Size = UDim2.new(0, 231, 0, 21)
+warn_11.Font = Enum.Font.FredokaOne
+warn_11.Text = "ECLIPSE HUB"
+warn_11.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_11.TextScaled = true
+warn_11.TextSize = 14.000
+warn_11.TextWrapped = true
+
+warn_12.CornerRadius = UDim.new(0, 18)
+warn_12.Name = "warn"
+warn_12.Parent = warn_11
+
+warn_13.Name = "warn"
+warn_13.Parent = Extras
+warn_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_13.BackgroundTransparency = 0.700
+warn_13.BorderSizePixel = 0
+warn_13.Position = UDim2.new(0.00409954786, 0, 0, 0)
+warn_13.Size = UDim2.new(0, 352, 0, 20)
+warn_13.Font = Enum.Font.FredokaOne
+warn_13.Text = "EXTRAS"
+warn_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+warn_13.TextScaled = true
+warn_13.TextSize = 29.000
+warn_13.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+warn_13.TextWrapped = true
+
+warn_14.Name = "warn"
+warn_14.Parent = Extras
+warn_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+warn_14.BackgroundTransparency = 0.600
+warn_14.Position = UDim2.new(0.171896204, 0, 0.770564497, 0)
+warn_14.Size = UDim2.new(0, 231, 0, 21)
+warn_14.Font = Enum.Font.FredokaOne
+warn_14.Text = "CHAT LOGGER"
+warn_14.TextColor3 = Color3.fromRGB(88, 0, 195)
+warn_14.TextScaled = true
+warn_14.TextSize = 14.000
+warn_14.TextWrapped = true
+
+warn_15.CornerRadius = UDim.new(0, 18)
+warn_15.Name = "warn"
+warn_15.Parent = warn_14
+
+FullCharacterCustomizer.Name = "FullCharacterCustomizer"
+FullCharacterCustomizer.Parent = Categories
+FullCharacterCustomizer.Active = true
+FullCharacterCustomizer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FullCharacterCustomizer.BackgroundTransparency = 0.650
+FullCharacterCustomizer.BorderSizePixel = 0
+FullCharacterCustomizer.Position = UDim2.new(0.414876044, 0, 0, 0)
+FullCharacterCustomizer.Size = UDim2.new(0, 354, 0, 308)
+FullCharacterCustomizer.Visible = false
+FullCharacterCustomizer.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+FullCharacterCustomizer.CanvasSize = UDim2.new(0, 0, 1, 0)
+FullCharacterCustomizer.ScrollBarThickness = 6
+
+yup.Name = "yup"
+yup.Parent = FullCharacterCustomizer
+yup.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup.BackgroundTransparency = 0.600
+yup.Position = UDim2.new(0.171896204, 0, 0.105789386, 0)
+yup.Size = UDim2.new(0, 231, 0, 14)
+yup.Font = Enum.Font.FredokaOne
+yup.Text = "Granite Material"
+yup.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup.TextScaled = true
+yup.TextSize = 14.000
+yup.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 18)
+UICorner_11.Parent = yup
+
+yup_2.Name = "yup"
+yup_2.Parent = FullCharacterCustomizer
+yup_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_2.BackgroundTransparency = 0.600
+yup_2.Position = UDim2.new(0.171896204, 0, 0.196299076, 0)
+yup_2.Size = UDim2.new(0, 231, 0, 14)
+yup_2.Font = Enum.Font.FredokaOne
+yup_2.Text = "Neon Material"
+yup_2.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_2.TextScaled = true
+yup_2.TextSize = 14.000
+yup_2.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 18)
+UICorner_12.Parent = yup_2
+
+yup_3.Name = "yup"
+yup_3.Parent = FullCharacterCustomizer
+yup_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_3.BackgroundTransparency = 0.600
+yup_3.Position = UDim2.new(0.171896204, 0, 0.279482841, 0)
+yup_3.Size = UDim2.new(0, 231, 0, 14)
+yup_3.Font = Enum.Font.FredokaOne
+yup_3.Text = "Sand Material"
+yup_3.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_3.TextScaled = true
+yup_3.TextSize = 14.000
+yup_3.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 18)
+UICorner_13.Parent = yup_3
+
+yup_4.Name = "yup"
+yup_4.Parent = FullCharacterCustomizer
+yup_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_4.BackgroundTransparency = 0.600
+yup_4.Position = UDim2.new(0.171896204, 0, 0.360776246, 0)
+yup_4.Size = UDim2.new(0, 231, 0, 14)
+yup_4.Font = Enum.Font.FredokaOne
+yup_4.Text = "Plastic Material"
+yup_4.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_4.TextScaled = true
+yup_4.TextSize = 14.000
+yup_4.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 18)
+UICorner_14.Parent = yup_4
+
+yup_5.Name = "yup"
+yup_5.Parent = FullCharacterCustomizer
+yup_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_5.BackgroundTransparency = 0.600
+yup_5.Position = UDim2.new(0.171896204, 0, 0.444668859, 0)
+yup_5.Size = UDim2.new(0, 231, 0, 14)
+yup_5.Font = Enum.Font.FredokaOne
+yup_5.Text = "Sandstone Material"
+yup_5.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_5.TextScaled = true
+yup_5.TextSize = 14.000
+yup_5.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 18)
+UICorner_15.Parent = yup_5
+
+yup_6.Name = "yup"
+yup_6.Parent = FullCharacterCustomizer
+yup_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_6.BackgroundTransparency = 0.600
+yup_6.Position = UDim2.new(0.171896204, 0, 0.528561592, 0)
+yup_6.Size = UDim2.new(0, 231, 0, 14)
+yup_6.Font = Enum.Font.FredokaOne
+yup_6.Text = "ForceField Material"
+yup_6.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_6.TextScaled = true
+yup_6.TextSize = 14.000
+yup_6.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 18)
+UICorner_16.Parent = yup_6
+
+yup_7.Name = "yup"
+yup_7.Parent = FullCharacterCustomizer
+yup_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_7.BackgroundTransparency = 0.600
+yup_7.Position = UDim2.new(0.171896204, 0, 0.613431633, 0)
+yup_7.Size = UDim2.new(0, 231, 0, 14)
+yup_7.Font = Enum.Font.FredokaOne
+yup_7.Text = "Salt Material"
+yup_7.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_7.TextScaled = true
+yup_7.TextSize = 14.000
+yup_7.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 18)
+UICorner_17.Parent = yup_7
+
+TextLabel.Parent = FullCharacterCustomizer
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 0.700
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00409954786, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 352, 0, 20)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "FULL CHARACTER CUSTOMIZER"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 29.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+TextLabel.TextWrapped = true
+
+yup_8.Name = "yup"
+yup_8.Parent = FullCharacterCustomizer
+yup_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_8.BackgroundTransparency = 0.600
+yup_8.Position = UDim2.new(0.171896204, 0, 0.699559808, 0)
+yup_8.Size = UDim2.new(0, 231, 0, 14)
+yup_8.Font = Enum.Font.FredokaOne
+yup_8.Text = "Metal Material"
+yup_8.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_8.TextScaled = true
+yup_8.TextSize = 14.000
+yup_8.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 18)
+UICorner_18.Parent = yup_8
+
+yup_9.Name = "yup"
+yup_9.Parent = FullCharacterCustomizer
+yup_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_9.BackgroundTransparency = 0.600
+yup_9.Position = UDim2.new(0.171896204, 0, 0.785312772, 0)
+yup_9.Size = UDim2.new(0, 231, 0, 14)
+yup_9.Font = Enum.Font.FredokaOne
+yup_9.Text = "Mud Material"
+yup_9.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_9.TextScaled = true
+yup_9.TextSize = 14.000
+yup_9.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 18)
+UICorner_19.Parent = yup_9
+
+yup_10.Name = "yup"
+yup_10.Parent = FullCharacterCustomizer
+yup_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yup_10.BackgroundTransparency = 0.600
+yup_10.Position = UDim2.new(0.171896204, 0, 0.872975111, 0)
+yup_10.Size = UDim2.new(0, 231, 0, 14)
+yup_10.Font = Enum.Font.FredokaOne
+yup_10.Text = "Revert To Regular Materials"
+yup_10.TextColor3 = Color3.fromRGB(88, 0, 195)
+yup_10.TextScaled = true
+yup_10.TextSize = 14.000
+yup_10.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 18)
+UICorner_20.Parent = yup_10
+
+LoadF.Name = "LoadF"
+LoadF.Parent = Categories
+LoadF.Active = true
+LoadF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoadF.BackgroundTransparency = 0.650
+LoadF.BorderSizePixel = 0
+LoadF.Position = UDim2.new(0.414876044, 0, 0, 0)
+LoadF.Size = UDim2.new(0, 354, 0, 308)
+LoadF.Visible = false
+LoadF.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+LoadF.CanvasSize = UDim2.new(0, 0, 1, 0)
+LoadF.ScrollBarThickness = 6
+
+gesg.Name = "gesg"
+gesg.Parent = LoadF
+gesg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gesg.BackgroundTransparency = 0.600
+gesg.Position = UDim2.new(0.17189616, 0, 0.112282924, 0)
+gesg.Size = UDim2.new(0, 231, 0, 23)
+gesg.Font = Enum.Font.FredokaOne
+gesg.Text = "Load File 1"
+gesg.TextColor3 = Color3.fromRGB(88, 0, 195)
+gesg.TextScaled = true
+gesg.TextSize = 14.000
+gesg.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 18)
+UICorner_21.Parent = gesg
+
+fsdesr.Name = "fsdesr"
+fsdesr.Parent = LoadF
+fsdesr.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fsdesr.BackgroundTransparency = 0.600
+fsdesr.Position = UDim2.new(0.17189616, 0, 0.236633569, 0)
+fsdesr.Size = UDim2.new(0, 231, 0, 23)
+fsdesr.Font = Enum.Font.FredokaOne
+fsdesr.Text = "Load File 2"
+fsdesr.TextColor3 = Color3.fromRGB(88, 0, 195)
+fsdesr.TextScaled = true
+fsdesr.TextSize = 14.000
+fsdesr.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 18)
+UICorner_22.Parent = fsdesr
+
+grgrrry.Name = "grgrrry"
+grgrrry.Parent = LoadF
+grgrrry.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+grgrrry.BackgroundTransparency = 0.600
+grgrrry.Position = UDim2.new(0.17189616, 0, 0.350919306, 0)
+grgrrry.Size = UDim2.new(0, 231, 0, 23)
+grgrrry.Font = Enum.Font.FredokaOne
+grgrrry.Text = "Load File 3"
+grgrrry.TextColor3 = Color3.fromRGB(88, 0, 195)
+grgrrry.TextScaled = true
+grgrrry.TextSize = 14.000
+grgrrry.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 18)
+UICorner_23.Parent = grgrrry
+
+gregir.Name = "gregir"
+gregir.Parent = LoadF
+gregir.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gregir.BackgroundTransparency = 0.700
+gregir.BorderSizePixel = 0
+gregir.Position = UDim2.new(0.00409954786, 0, 0, 0)
+gregir.Size = UDim2.new(0, 352, 0, 20)
+gregir.Font = Enum.Font.FredokaOne
+gregir.Text = "LOAD FILES"
+gregir.TextColor3 = Color3.fromRGB(0, 0, 0)
+gregir.TextScaled = true
+gregir.TextSize = 29.000
+gregir.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+gregir.TextWrapped = true
+
+SaveF.Name = "SaveF"
+SaveF.Parent = Categories
+SaveF.Active = true
+SaveF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SaveF.BackgroundTransparency = 0.650
+SaveF.BorderSizePixel = 0
+SaveF.Position = UDim2.new(0.414876044, 0, 0, 0)
+SaveF.Size = UDim2.new(0, 354, 0, 308)
+SaveF.Visible = false
+SaveF.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+SaveF.CanvasSize = UDim2.new(0, 0, 1, 0)
+SaveF.ScrollBarThickness = 6
+
+tt.Name = "tt"
+tt.Parent = SaveF
+tt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tt.BackgroundTransparency = 0.600
+tt.Position = UDim2.new(0.17189616, 0, 0.112282924, 0)
+tt.Size = UDim2.new(0, 231, 0, 23)
+tt.Font = Enum.Font.FredokaOne
+tt.Text = "Save File 1"
+tt.TextColor3 = Color3.fromRGB(88, 0, 195)
+tt.TextScaled = true
+tt.TextSize = 14.000
+tt.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 18)
+UICorner_24.Parent = tt
+
+t.Name = "t"
+t.Parent = SaveF
+t.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+t.BackgroundTransparency = 0.600
+t.Position = UDim2.new(0.17189616, 0, 0.236633569, 0)
+t.Size = UDim2.new(0, 231, 0, 23)
+t.Font = Enum.Font.FredokaOne
+t.Text = "Save File 2"
+t.TextColor3 = Color3.fromRGB(88, 0, 195)
+t.TextScaled = true
+t.TextSize = 14.000
+t.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 18)
+UICorner_25.Parent = t
+
+o.Name = "o"
+o.Parent = SaveF
+o.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+o.BackgroundTransparency = 0.600
+o.Position = UDim2.new(0.17189616, 0, 0.350919306, 0)
+o.Size = UDim2.new(0, 231, 0, 23)
+o.Font = Enum.Font.FredokaOne
+o.Text = "Save File 3"
+o.TextColor3 = Color3.fromRGB(88, 0, 195)
+o.TextScaled = true
+o.TextSize = 14.000
+o.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 18)
+UICorner_26.Parent = o
+
+TextLabel_2.Parent = SaveF
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 0.700
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.00409954786, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 352, 0, 20)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "SAVE FILES"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 29.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+TextLabel_2.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Categories
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BackgroundTransparency = 0.650
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.414876044, 0, 0, 0)
+Scripts.Size = UDim2.new(0, 354, 0, 308)
+Scripts.Visible = false
+Scripts.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.CanvasSize = UDim2.new(0, 0, 1, 0)
+Scripts.ScrollBarThickness = 6
+
+ck.Name = "ck"
+ck.Parent = Scripts
+ck.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ck.BackgroundTransparency = 0.600
+ck.Position = UDim2.new(0.171896204, 0, 0.144750416, 0)
+ck.Size = UDim2.new(0, 231, 0, 17)
+ck.Font = Enum.Font.FredokaOne
+ck.Text = "VIW TAG"
+ck.TextColor3 = Color3.fromRGB(88, 0, 195)
+ck.TextScaled = true
+ck.TextSize = 14.000
+ck.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 18)
+UICorner_27.Parent = ck
+
+n.Name = "n"
+n.Parent = Scripts
+n.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+n.BackgroundTransparency = 0.600
+n.Position = UDim2.new(0.171896204, 0, 0.250626385, 0)
+n.Size = UDim2.new(0, 231, 0, 17)
+n.Font = Enum.Font.FredokaOne
+n.Text = "GAMEPASSES"
+n.TextColor3 = Color3.fromRGB(88, 0, 195)
+n.TextScaled = true
+n.TextSize = 14.000
+n.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 18)
+UICorner_28.Parent = n
+
+a_2.Name = "a"
+a_2.Parent = Scripts
+a_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+a_2.BackgroundTransparency = 0.600
+a_2.Position = UDim2.new(0.171896204, 0, 0.347932696, 0)
+a_2.Size = UDim2.new(0, 231, 0, 17)
+a_2.Font = Enum.Font.FredokaOne
+a_2.Text = "FLING"
+a_2.TextColor3 = Color3.fromRGB(88, 0, 195)
+a_2.TextScaled = true
+a_2.TextSize = 14.000
+a_2.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 18)
+UICorner_29.Parent = a_2
+
+d_3.Name = "d"
+d_3.Parent = Scripts
+d_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+d_3.BackgroundTransparency = 0.600
+d_3.Position = UDim2.new(0.171896204, 0, 0.443027616, 0)
+d_3.Size = UDim2.new(0, 231, 0, 17)
+d_3.Font = Enum.Font.FredokaOne
+d_3.Text = "AUTO NAME"
+d_3.TextColor3 = Color3.fromRGB(88, 0, 195)
+d_3.TextScaled = true
+d_3.TextSize = 14.000
+d_3.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 18)
+UICorner_30.Parent = d_3
+
+ic.Name = "ic"
+ic.Parent = Scripts
+ic.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ic.BackgroundTransparency = 0.600
+ic.Position = UDim2.new(0.171896204, 0, 0.551636338, 0)
+ic.Size = UDim2.new(0, 231, 0, 17)
+ic.Font = Enum.Font.FredokaOne
+ic.Text = "CHAT BYPASS"
+ic.TextColor3 = Color3.fromRGB(88, 0, 195)
+ic.TextScaled = true
+ic.TextSize = 14.000
+ic.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 18)
+UICorner_31.Parent = ic
+
+sl.Name = "sl"
+sl.Parent = Scripts
+sl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sl.BackgroundTransparency = 0.600
+sl.Position = UDim2.new(0.171896204, 0, 0.650915205, 0)
+sl.Size = UDim2.new(0, 231, 0, 17)
+sl.Font = Enum.Font.FredokaOne
+sl.Text = "INFINITE COINS"
+sl.TextColor3 = Color3.fromRGB(88, 0, 195)
+sl.TextScaled = true
+sl.TextSize = 14.000
+sl.TextWrapped = true
+
+UICorner_32.CornerRadius = UDim.new(0, 18)
+UICorner_32.Parent = sl
+
+TextLabel_3.Parent = Scripts
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 0.700
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.00409954786, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 352, 0, 20)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "SCRIPTS"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 29.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(183, 0, 255)
+TextLabel_3.TextWrapped = true
+
+h.Name = "h"
+h.Parent = Scripts
+h.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h.BackgroundTransparency = 0.600
+h.Position = UDim2.new(0.171896204, 0, 0.751665771, 0)
+h.Size = UDim2.new(0, 231, 0, 17)
+h.Font = Enum.Font.FredokaOne
+h.Text = "CUSTOMIZER"
+h.TextColor3 = Color3.fromRGB(88, 0, 195)
+h.TextScaled = true
+h.TextSize = 14.000
+h.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 18)
+UICorner_33.Parent = h
+
+s.Name = "s"
+s.Parent = Scripts
+s.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+s.BackgroundTransparency = 0.600
+s.Position = UDim2.new(0.171896204, 0, 0.851977468, 0)
+s.Size = UDim2.new(0, 231, 0, 17)
+s.Font = Enum.Font.FredokaOne
+s.Text = "MUTE VIW"
+s.TextColor3 = Color3.fromRGB(88, 0, 195)
+s.TextScaled = true
+s.TextSize = 14.000
+s.TextWrapped = true
+
+UICorner_34.CornerRadius = UDim.new(0, 18)
+UICorner_34.Parent = s
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.61, Color3.fromRGB(66, 66, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Scripts
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(66, 66, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = Maine
+
+-- Scripts:
+
+local function JDLWQY_script() -- i.MenuSelection 
+	local script = Instance.new('LocalScript', i)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = true
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(JDLWQY_script)()
+local function HCFOFE_script() -- a.MenuSelection 
+	local script = Instance.new('LocalScript', a)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = true
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(HCFOFE_script)()
+local function NZIOTDV_script() -- r.MenuSelection 
+	local script = Instance.new('LocalScript', r)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = true
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(NZIOTDV_script)()
+local function AJIXSH_script() -- Maine.wad 
+	local script = Instance.new('LocalScript', Maine)
+
+	
+	
+	
+	local frame = script.Parent 
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); 
+	
+	mouse.KeyDown:connect(function(key) 
+		key = key:lower() 
+		if key == 'c' then 
+			frame.Visible = not frame.Visible 
+		end
+	end)
+end
+coroutine.wrap(AJIXSH_script)()
+local function EXEFBE_script() -- g.MenuSelection 
+	local script = Instance.new('LocalScript', g)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = true
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(EXEFBE_script)()
+local function VDYIE_script() -- Maine.daw 
+	local script = Instance.new('LocalScript', Maine)
+
+	
+	
+	local ab=game:GetService("UserInputService")
+	local bb=(game:GetService("RunService"))local cb=script.Parent;local db;local _c;local ac;local bc
+	function Lerp(ad,bd,cd)return ad+ (bd-ad)*cd end;local cc;local dc;local _d=(8)
+	function Update(ad)if not(bc)then return end
+	if not(db)and(dc)then
+	cb.Position=UDim2.new(bc.X.Scale,Lerp(cb.Position.X.Offset,dc.X.Offset,
+	ad*_d),bc.Y.Scale,Lerp(cb.Position.Y.Offset,dc.Y.Offset,ad*_d))return end;local bd=(cc-ab:GetMouseLocation())
+	local cd=(bc.X.Offset-bd.X)local dd=(bc.Y.Offset-bd.Y)
+	dc=UDim2.new(bc.X.Scale,cd,bc.Y.Scale,dd)
+	cb.Position=UDim2.new(bc.X.Scale,Lerp(cb.Position.X.Offset,cd,ad*_d),bc.Y.Scale,Lerp(cb.Position.Y.Offset,dd,
+	ad*_d))end
+	cb.InputBegan:Connect(function(ad)
+	if
+	
+	ad.UserInputType==Enum.UserInputType.MouseButton1 or ad.UserInputType==Enum.UserInputType.Touch then db=true;ac=ad.Position;bc=cb.Position;cc=ab:GetMouseLocation()
+	ad.Changed:Connect(function()
+	if
+	ad.UserInputState==Enum.UserInputState.End then db=false end end)end end)
+	cb.InputChanged:Connect(function(ad)if
+	
+	ad.UserInputType==Enum.UserInputType.MouseMovement or ad.UserInputType==Enum.UserInputType.Touch then _c=ad end end)bb.Heartbeat:Connect(Update)
+end
+coroutine.wrap(VDYIE_script)()
+local function ROIEBZA_script() -- d.MenuSelection 
+	local script = Instance.new('LocalScript', d)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = true
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(ROIEBZA_script)()
+local function TKNMU_script() -- u.MenuSelection 
+	local script = Instance.new('LocalScript', u)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = true
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TKNMU_script)()
+local function MJYJ_script() -- d_2.MenuSelection 
+	local script = Instance.new('LocalScript', d_2)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = false
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = true
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(MJYJ_script)()
+local function DAQLWY_script() -- y.MenuSelection 
+	local script = Instance.new('LocalScript', y)
+
+	function Click() 
+		script.Parent.Parent.Categories.Scripts.Visible = false
+		script.Parent.Parent.Categories.Discord.Visible = false
+		script.Parent.Parent.Categories.SaveF.Visible = true
+		script.Parent.Parent.Categories.LoadF.Visible = false
+		script.Parent.Parent.Categories.Character.Visible = false
+		script.Parent.Parent.Categories.Extras.Visible = false
+		script.Parent.Parent.Categories.ColorToggles.Visible = false
+		script.Parent.Parent.Categories.FullCharacterCustomizer.Visible = false
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(DAQLWY_script)()
+local function MWVQNP_script() -- brhhhwhat.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(MWVQNP_script)()
+local function MGKE_script() -- brhhhwhat_3.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_3)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(MGKE_script)()
+local function UINJU_script() -- brhhhwhat_5.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_5)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(UINJU_script)()
+local function PVQQBV_script() -- brhhhwhat_7.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_7)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RighThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(PVQQBV_script)()
+local function YMCP_script() -- brhhhwhat_9.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_9)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Back",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "BackFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChestFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Claws",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonClaws",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EarFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeColor",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeLid",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Fat",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Gum",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Head",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Hip",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "HumanoidRootPart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Jaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "JawFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Leftleg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWingStart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LegFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Muzzle",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Neck",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Nose",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pads",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pupils",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWingStart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Secondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "TailFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Torso",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "White",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "lash",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 1
+		}
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChubbyCheeks",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tooth",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "UpperTooth",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "HairF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "TorsoF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "PiercingsF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+	
+		local args = {
+			[1] = "remove",
+			[2] = "FeetF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(YMCP_script)()
+local function BEKHJ_script() -- brhhhwhat_11.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_11)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Back",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "BackFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChestFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Claws",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonClaws",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EarFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeColor",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeLid",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Fat",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Gum",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Head",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Hip",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Jaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "JawFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArmPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Leftleg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftShoulder",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWingStart",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LegFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Muzzle",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Neck",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Nose",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pads",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pupils",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArmPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightShoulder",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightThigh",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWingStart",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Secondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "TailFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Torso",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "White",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "lash",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 0
+		}
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChubbyCheeks",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tooth",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "UpperTooth",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(BEKHJ_script)()
+local function PZKVSP_script() -- brhhhwhat_13.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_13)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(PZKVSP_script)()
+local function NMRBXG_script() -- brhhhwhat_16.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_16)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(NMRBXG_script)()
+local function YAWE_script() -- brhhhwhat_18.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_18)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(YAWE_script)()
+local function JWHMM_script() -- brhhhwhat_20.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_20)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(JWHMM_script)()
+local function UWXL_script() -- brhhhwhat_22.brhhhwhat 
+	local script = Instance.new('Script', brhhhwhat_22)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(UWXL_script)()
+local function BTTSO_script() -- gggg.Script 
+	local script = Instance.new('Script', gggg)
+
+	function Click() 
+		_G.Toggle = true --true = on, false = off, !re-execute to apply changes!
+		--^ if color is glitching then turn to false, wait a few seconds and then true again
+		local neon = true --true = neon dragon and ocean primary false = classic material
+		--locals--
+		local rs = game:GetService("ReplicatedStorage")
+		local cv0 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[5] = Color3.fromRGB(0,0,0),[4] = "Body"}
+		local cv1 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(30,22,42),[4] = "Body"}
+		local cv2 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(44,33,62),[4] = "Body"}
+		local cv3 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(59,44,83),[4] = "Body"}
+		local cv4 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(72,53,100),[4] = "Body"}
+		local cv5 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(87,64,122),[4] = "Body"}
+		local cv6 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(98,73,139),[4] = "Body"}
+		local cv7 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(106,80,152),[4] = "Body"}
+		local cv8 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(116,87,166),[4] = "Body"}
+		local cv9 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[13] = "EyeColor",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[18] = "TailFluff",},[3] = Color3.fromRGB(129,97,184),[4] = "Body"}
+		local cv10 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(138,104,198),[4] = "Body"}
+		local cv11 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(148,112,214),[4] = "Body"}
+		local cv12 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(159,121,230),[4] = "Body"}
+		local cv13 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(136,120,230),[4] = "Body"}
+		local cv14 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(120,122,230),[4] = "Body"}
+		local cv15 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(109,109,230),[4] = "Body"}
+		local cv16 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(100,102,230),[4] = "Body"}
+		local cv17 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(99,141,230),[4] = "Body"}
+		local cv18 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(97,168,230),[4] = "Body"}
+		local cv19 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(87,144,230),[4] = "Body"}
+		local cv20 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(64,122,230),[4] = "Body"}
+		local cv21 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",[3] = "ChestFluff",[4] = "DragonThird",[6] = "LeftFootPaw",[7] = "RightFootPaw",[8] = "RightArmPaw",[9] = "LeftArmPaw",[10] = "RightWing2",[11] = "LeftWing2",[12] = "RightWing3",[12] = "LeftWing3",[14] = "LeftLowerArm",[15] = "RightLowerArm",[16] = "LeftLowerLeg",[17] = "RightLowerLeg",[13] = "EyeColor",[18] = "TailFluff",},[3] = Color3.fromRGB(39,96,230),[4] = "Body"}
+		--script--
+		while _G.Toggle do
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv0))  wait(1)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv1))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv2))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv3))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv4))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv5))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv6))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv7))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv8))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv9))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv10)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv11)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv12)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv13)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv14)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv15)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv16)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv17)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv18)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv19)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv20)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv21)) wait(1)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv20)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv19)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv18)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv17)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv16)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv15)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv14)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv13)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv12)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv11)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv10)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv9))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv8))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv7))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv6))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv5))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv4))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv3))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv2))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv1))  wait(0.05)
+		end
+		if neon == true then
+			local args = {[1] = "Material",[2] = "Neon",[3] = {[1] = "OceanPrimary",[2] = "DragonPrimary",[3] = "ChestFluff",}} rs:WaitForChild("MasterKey"):FireServer(unpack(args))
+		end
+		if neon == false then
+			local args = {[1] = "Material",[2] = "ForceField",[3] = {[1] = "OceanPrimary",[2] = "DragonPrimary",[3] = "ChestFluff",}} rs:WaitForChild("MasterKey"):FireServer(unpack(args))
+		end
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(BTTSO_script)()
+local function ONSMJIP_script() -- gggg_2.Script 
+	local script = Instance.new('Script', gggg_2)
+
+	function Click() 
+		_G.Toggle = true --true = on, false = off, !re-execute to apply changes!
+		--^ if color is glitching then turn to false, wait a few seconds and then true again
+		local neon = true --true = neon dragon and ocean primary false = classic material
+		--locals--
+		local rs = game:GetService("ReplicatedStorage") 
+		local cv0 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[5] = Color3.fromRGB(0,0,0),[4] = "Body"}
+		local cv1 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(34,34,34),[4] = "Body"}
+		local cv2 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(56,56,56),[4] = "Body"}
+		local cv3 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(76,76,76),[4] = "Body"}
+		local cv4 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(93,93,93),[4] = "Body"}
+		local cv5 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(99,99,99),[4] = "Body"}
+		local cv6 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(115,115,115),[4] = "Body"}
+		local cv7 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(129,129,129),[4] = "Body"}
+		local cv8 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(143,143,143),[4] = "Body"}
+		local cv9 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(161,161,161),[4] = "Body"}
+		local cv10 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(176,176,176),[4] = "Body"}
+		local cv11 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(190,190,190),[4] = "Body"}
+		local cv12 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(199,199,199),[4] = "Body"}
+		local cv13 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(209,209,209),[4] = "Body"}
+		local cv14 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(220,220,220),[4] = "Body"}
+		local cv15 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(230,230,230),[4] = "Body"}
+		local cv16 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(236,236,236),[4] = "Body"}
+		local cv17 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(244,244,244),[4] = "Body"}
+		local cv18 = {[1] = "customize",[2] = {[1] = "DragonPrimary",[2] = "OceanPrimary",},[3] = Color3.fromRGB(255,255,255),[4] = "Body"}
+		--script--
+		while _G.Toggle do
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv0))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv1))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv2))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv3))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv4))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv5))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv6))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv7))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv8))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv9))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv10)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv11)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv12)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv13)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv14)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv15)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv16)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv17)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv18)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv17)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv16)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv15)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv14)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv13)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv12)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv11)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv10)) wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv9))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv8))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv7))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv6))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv5))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv4))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv3))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv2))  wait(0.05)
+			rs:WaitForChild("MasterKey"):FireServer(unpack(cv1))  wait(0.05)
+		end
+		if neon == true then
+			local args = {[1] = "Material",[2] = "Neon",[3] = {[1] = "OceanPrimary",[2] = "DragonPrimary",}} rs:WaitForChild("MasterKey"):FireServer(unpack(args))
+		end
+		if neon == false then
+			local args = {[1] = "Material",[2] = "Concrete",[3] = {[1] = "OceanPrimary",[2] = "DragonPrimary",}} rs:WaitForChild("MasterKey"):FireServer(unpack(args))
+		end
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(ONSMJIP_script)()
+local function OAWEK_script() -- warn.warn 
+	local script = Instance.new('Script', warn)
+
+	function Click() 
+		loadstring(game:HttpGet(('https://gist.githubusercontent.com/alexbomb6666/0ccafd480ea91b6a31c81d39e8b869e9/raw/2469aafbc1b6afb1361b429655ab7ee1cb4143c4/wl3_real'),true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(OAWEK_script)()
+local function QLJO_script() -- warn_3.warn 
+	local script = Instance.new('Script', warn_3)
+
+	function Click() 
+		loadstring(game:HttpGet(('https://pastebin.com/raw/FdcVu5mr'),true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(QLJO_script)()
+local function UBLLZ_script() -- warn_5.warn 
+	local script = Instance.new('Script', warn_5)
+
+	function Click() 
+		loadstring(game:HttpGet(('https://pastebin.com/raw/U290qDC2'),true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(UBLLZ_script)()
+local function WFNFAJ_script() -- warn_7.warn 
+	local script = Instance.new('Script', warn_7)
+
+	function Click() 
+		loadstring(game:HttpGet(('https://pastebin.com/raw/6p3mW3hb'),true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(WFNFAJ_script)()
+local function SFKR_script() -- warn_9.warn 
+	local script = Instance.new('Script', warn_9)
+
+	function Click() 
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(SFKR_script)()
+local function GTIXPRV_script() -- warn_11.warn 
+	local script = Instance.new('Script', warn_11)
+
+	function Click() 
+		getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(GTIXPRV_script)()
+local function KLARU_script() -- warn_14.warn 
+	local script = Instance.new('Script', warn_14)
+
+	function Click() 
+		--[[ ]]--
+	
+	
+		-- Check RSR true if you have ProtoSmasher.
+	
+		local RSR = false
+	
+		local StartUpMessage = "egg"
+	
+		local Parent
+		if game:GetService("CoreGui"):FindFirstChild("RobloxGui") then
+			Parent = game:GetService("CoreGui").RobloxGui
+		else
+			Parent = game:GetService("CoreGui")
+		end
+	
+		local Minimized = false
+		local Logging = true
+		local OutputPos = 0
+		local ScrollingDown = false
+	
+		local ChatLog = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local LogPanel = Instance.new("ScrollingFrame")
+		local TextLabel = Instance.new("TextLabel")
+		local ChatLogLabel = Instance.new("TextLabel")
+		local Exit = Instance.new("TextButton")
+		local Minimize = Instance.new("TextButton")
+		local Status = Instance.new("TextButton")
+		local Clear = Instance.new("TextButton")
+		local FrameHolder = Instance.new("Frame")
+		local Loading = Instance.new("ImageLabel")
+	
+		ChatLog.Name = "ChatLog"
+		ChatLog.Parent = game.CoreGui
+	
+		if RSR then
+			print("Disabled")
+		else
+			ChatLog.ResetOnSpawn = false
+			print("Enabled")
+		end
+	
+		Frame.Parent = ChatLog
+		Frame.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+		Frame.BackgroundTransparency = 0.20000000298023
+		Frame.BorderColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+		Frame.Position = UDim2.new(0, 0, 0, 0)
+		Frame.Size = UDim2.new(0, 463, 0, 24)
+		Frame.Visible = false
+		Frame.Active = false
+	
+		LogPanel.Name = "LogPanel"
+		LogPanel.Parent = Frame
+		LogPanel.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+		LogPanel.BackgroundTransparency = 0.20000000298023
+		LogPanel.BorderColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+		LogPanel.Position = UDim2.new(0, 0, 1, 0)
+		LogPanel.Size = UDim2.new(0, 463, 0, 214)
+		LogPanel.CanvasSize = UDim2.new(2, 0, 100, 0)
+	
+		TextLabel.Parent = LogPanel
+		TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel.BackgroundTransparency = 1
+		TextLabel.Position = UDim2.new(0.0939524844, 0, 0.00291666668, 0)
+		TextLabel.Size = UDim2.new(0, 301, 0, 11)
+		TextLabel.Font = Enum.Font.SourceSans
+		TextLabel.Text = StartUpMessage
+		TextLabel.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel.TextSize = 15
+		TextLabel.TextWrapped = true
+	
+		ChatLogLabel.Name = "ChatLogLabel"
+		ChatLogLabel.Parent = Frame
+		ChatLogLabel.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+		ChatLogLabel.BackgroundTransparency = 1
+		ChatLogLabel.BorderSizePixel = 0
+		ChatLogLabel.Position = UDim2.new(-0.00180099811, 0, -0.0416666269, 0)
+		ChatLogLabel.Size = UDim2.new(0, 463, 0, 23)
+		ChatLogLabel.Font = Enum.Font.SourceSansBold
+		ChatLogLabel.Text = "Chat Log"
+		ChatLogLabel.TextColor3 = Color3.new(1, 1, 1)
+		ChatLogLabel.TextSize = 20
+		ChatLogLabel.TextWrapped = true
+	
+		Exit.Name = "Exit"
+		Exit.Parent = Frame
+		Exit.BackgroundColor3 = Color3.new(1, 1, 1)
+		Exit.BackgroundTransparency = 1
+		Exit.Position = UDim2.new(0.93929702, 0, 0, 0)
+		Exit.Size = UDim2.new(0, 19, 0, 21)
+		Exit.Font = Enum.Font.Arcade
+		Exit.Text = "X"
+		Exit.TextColor3 = Color3.new(1, 1, 1)
+		Exit.TextSize = 16
+		Exit.TextWrapped = true
+	
+		Exit.MouseButton1Down:Connect(function()
+			LogPanel:TweenPosition(UDim2.new(-1, 0, 2, 0), "InOut", "Sine", 1, false, nil)
+			wait(0.5)
+			ChatLog:Destroy()
+		end)
+	
+		Minimize.Name = "Minimize"
+		Minimize.Parent = Frame
+		Minimize.BackgroundColor3 = Color3.new(1, 1, 1)
+		Minimize.BackgroundTransparency = 1
+		Minimize.Position = UDim2.new(0.87859416, 0, 0, 0)
+		Minimize.Size = UDim2.new(0, 19, 0, 21)
+		Minimize.Font = Enum.Font.Arcade
+		Minimize.Text = "_"
+		Minimize.TextColor3 = Color3.new(1, 1, 1)
+		Minimize.TextSize = 16
+		Minimize.TextWrapped = true
+	
+		Minimize.MouseButton1Down:Connect(function()
+			if Minimized then
+				LogPanel.Visible = true
+				wait(0.03)
+				LogPanel:TweenSize(UDim2.new(0, 463, 0, 214), "InOut", "Sine", 0.5, false, nil)
+			else
+				LogPanel.Visible = false
+				wait(0.03)
+				LogPanel:TweenSize(UDim2.new(0, 463, 0, 1), "InOut", "Sine", 0.5, false, nil)
+			end
+			Minimized = not Minimized
+		end)
+	
+		Status.Name = "Status"
+		Status.Parent = Frame
+		Status.BackgroundColor3 = Color3.new(1, 1, 1)
+		Status.BackgroundTransparency = 1
+		Status.Position = UDim2.new(0, 0, 0.0416666679, 0)
+		Status.Size = UDim2.new(0, 54, 0, 20)
+		Status.Font = Enum.Font.Highway
+		Status.Text = "Online"
+		Status.TextColor3 = Color3.new(0.301961, 0.988235, 0.0509804)
+		Status.TextSize = 14
+	
+		Status.MouseButton1Down:Connect(function()
+			Logging = not Logging
+			if Logging then
+				Status.Text = "Online"
+				Status.TextColor3 = Color3.new(0.301961, 0.988235, 0.0509804)
+			else
+				Status.Text = "Offline"
+				Status.TextColor3 = Color3.new(0.988235, 0.164706, 0)
+			end
+		end)
+	
+		function Output(Player, Message)
+			if not Logging then return end
+			local Color = Color3.fromRGB(255,255,255)
+			if string.sub(Message, 1,1) == ":" or string.sub(Message,1,1) == ";" then
+				Color = Color3.fromRGB(220,20,60)
+			elseif string.sub(Message,1,2) == "/w" or string.sub(Message,1,7) == "/whisper" then
+				Color = Color3.fromRGB(0,200,0)
+			elseif string.sub(Message, 1,2) == "/e" then
+				Color = Color3.fromRGB(255,232,11)
+			elseif string.sub(Message,1,5) == "/team" or string.sub(Message,1,2) == "/t" then
+				Color = Color3.fromRGB(30,144,255)
+			elseif string.sub(Message,1,3) == "/me" then
+				Color = Color3.fromRGB(138,43,226)
+			elseif string.sub(Message,1,1) == "!" or string.sub(Message,1,1) == "?" then
+				Color = Color3.fromRGB(255,140,0)
+			else
+				Color = Color3.fromRGB(255,255,255)
+			end
+			local o = Instance.new("TextLabel", LogPanel)
+			o.Text = Player.Name .. ": " .. Message
+			o.Size = UDim2.new(0.5,0,.006,0)
+			o.Position = UDim2.new(0,0,0.007 + OutputPos , 0)
+			o.Font = Enum.Font.SourceSansSemibold
+			o.TextColor3 = Color
+			o.BackgroundTransparency = 1
+			o.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+			o.BorderSizePixel = 0
+			o.FontSize = "Size14"
+			o.TextXAlignment = Enum.TextXAlignment.Left
+			o.ClipsDescendants = true
+			OutputPos = OutputPos + 0.007
+		end
+	
+		Clear.Name = "Clear"
+		Clear.Parent = Frame
+		Clear.BackgroundColor3 = Color3.new(1, 1, 1)
+		Clear.BackgroundTransparency = 1
+		Clear.BorderSizePixel = 0
+		Clear.Position = UDim2.new(0.748501003, 0, 0, 0)
+		Clear.Size = UDim2.new(0, 52, 0, 20)
+		Clear.Font = Enum.Font.Highway
+		Clear.Text = "Clear"
+		Clear.TextColor3 = Color3.new(0, 0.627451, 0)
+		Clear.TextSize = 14
+	
+		Clear.MouseButton1Down:Connect(function()
+			for i,v in pairs(LogPanel:GetChildren()) do
+				if v.Text ~= "Welcome to Chat Log! | Made by Draconic#0995" then
+					v:Destroy()
+				end
+			end
+			OutputPos = 0
+		end)
+	
+		for i,v in pairs(game.Players:GetChildren()) do
+			v.Chatted:Connect(function(Message)
+				Output(v, Message)
+			end)
+		end
+	
+		game.Players.ChildAdded:Connect(function(Player)
+			if Player:IsA("Player") then
+				Player.Chatted:Connect(function(Message)
+					Output(Player, Message)
+				end)
+			end
+		end)
+	
+		FrameHolder.Name = "FrameHolder"
+		FrameHolder.Parent = ChatLog
+		FrameHolder.BackgroundColor3 = Color3.new(1, 1, 1)
+		FrameHolder.BackgroundTransparency = 1
+		FrameHolder.Position = UDim2.new(0, 0, 0, 0)
+		FrameHolder.Size = UDim2.new(0, 100, 0, 100)
+	
+		Loading.Name = "Loading"
+		Loading.Parent = FrameHolder
+		Loading.BackgroundColor3 = Color3.new(1, 1, 1)
+		Loading.BackgroundTransparency = 1
+		Loading.Position = UDim2.new(0, 0, 0, 0)
+		Loading.Size = UDim2.new(0, 436, 0, 346)
+		Loading.Image = "rbxassetid://2601977061"
+	
+		FrameHolder:TweenPosition(UDim2.new(0.43403694, 0, 0.133466139, 0), "InOut", "Sine", 0.5, false, nil)
+		wait()
+		Loading:TweenPosition(UDim2.new(-1.37131715, 0, -0.184999391, 0), "InOut", "Sine", 0.5, false, nil)
+		wait(2)
+		Loading:TweenPosition(UDim2.new(-10, 0, -5, 0), "InOut", "Sine", 0.5, false, nil)
+		wait(1)
+		FrameHolder:Destroy()
+	
+		Frame.Visible = true
+		Frame:TweenPosition(UDim2.new(0.307387829, 0, 0.336653352, 0), "InOut", "Sine", 0.5, false, nil)
+		Frame.Active = true
+		Frame.Draggable = true
+		wait()
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Notification";
+			Text = "Chat Log Enabled!";
+			Icon = "rbxassetid://2599962896";
+			Duration = 3;
+		})
+	
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(KLARU_script)()
+local function JYTZKM_script() -- yup.Script 
+	local script = Instance.new('Script', yup)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Granite", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(JYTZKM_script)()
+local function SNMBO_script() -- yup_2.Script 
+	local script = Instance.new('Script', yup_2)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Neon", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(SNMBO_script)()
+local function VQQHMZS_script() -- yup_3.Script 
+	local script = Instance.new('Script', yup_3)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Sand", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(VQQHMZS_script)()
+local function PEBSPB_script() -- yup_4.Script 
+	local script = Instance.new('Script', yup_4)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Plastic", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(PEBSPB_script)()
+local function PCLB_script() -- yup_5.Script 
+	local script = Instance.new('Script', yup_5)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Sandstone", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(PCLB_script)()
+local function HDDAHYW_script() -- yup_6.Script 
+	local script = Instance.new('Script', yup_6)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "ForceField", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(HDDAHYW_script)()
+local function IJHPVE_script() -- yup_7.Script 
+	local script = Instance.new('Script', yup_7)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Salt", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(IJHPVE_script)()
+local function WZBV_script() -- yup_8.Script 
+	local script = Instance.new('Script', yup_8)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Metal", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(WZBV_script)()
+local function TNYXQ_script() -- yup_9.Script 
+	local script = Instance.new('Script', yup_9)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Mud", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TNYXQ_script)()
+local function NMNVSZ_script() -- yup_10.Script 
+	local script = Instance.new('Script', yup_10)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Concrete", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFoot",
+				[18] = "RightFoot",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(NMNVSZ_script)()
+local function YICJC_script() -- gesg.Script 
+	local script = Instance.new('Script', gesg)
+
+	function Click() 
+		local args = {
+			[1] = "LoadFile1Colours",
+			[2] = "1",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(YICJC_script)()
+local function SQMX_script() -- fsdesr.Script 
+	local script = Instance.new('Script', fsdesr)
+
+	function Click() 
+		local args = {
+			[1] = "LoadFile1Colours",
+			[2] = "2",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(SQMX_script)()
+local function ADMUBWK_script() -- grgrrry.Script 
+	local script = Instance.new('Script', grgrrry)
+
+	function Click() 
+		local args = {
+			[1] = "LoadFile1Colours",
+			[2] = "3",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(ADMUBWK_script)()
+local function WARY_script() -- tt.Script 
+	local script = Instance.new('Script', tt)
+
+	function Click() 
+		local args = {
+			[1] = "SaveFile1Colours",
+			[2] = "1",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(WARY_script)()
+local function OPJDESA_script() -- t.Script 
+	local script = Instance.new('Script', t)
+
+	function Click() 
+		local args = {
+			[1] = "SaveFile1Colours",
+			[2] = "2",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(OPJDESA_script)()
+local function OJTEPE_script() -- o.Script 
+	local script = Instance.new('Script', o)
+
+	function Click() 
+		local args = {
+			[1] = "SaveFile1Colours",
+			[2] = "3",
+			[3] = "\195\137,\203\1561\194\181\195\154+t\226\149\165\195\1304\194\180\195\134\195\138\226\134\168\226\149" ..
+				"\147"
+		}
+	
+		game:GetService("ReplicatedStorage").Save:InvokeServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(OJTEPE_script)()
+local function BWTV_script() -- ck.Script 
+	local script = Instance.new('Script', ck)
+
+	function Click() 
+		game.ReplicatedStorage.MasterKey:FireServer("AddVIWTag", nil, "\230\139\154\230\136\172i\235\156\146(\238\138\155\201\172XD")
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(BWTV_script)()
+local function HNUW_script() -- n.Script 
+	local script = Instance.new('Script', n)
+
+	function Click() 
+		game.Players.LocalPlayer.UserId = 112488179
+	
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(HNUW_script)()
+local function OIHUUYS_script() -- a_2.Script 
+	local script = Instance.new('Script', a_2)
+
+	function Click() 
+		loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(OIHUUYS_script)()
+local function TEZFUDV_script() -- d_3.Script 
+	local script = Instance.new('Script', d_3)
+
+	function Click() 
+	_G.msg1 = "Loading"
+	    _G.msg2 = "Loading."
+	    _G.msg3 = "Loading.."
+	    _G.msg4 = "Loading..."
+	
+	    
+	
+	while true do
+	
+	    local ChangeDesc = "ChangeDesc"
+	    local ChangeName = "ChangeName"
+	    local Key =
+	            "\226\128\153\98\37\53\109\226\128\176\125\48\195\138\51\116\195\154\226\149\147\195\146\226\148\140\226\128\166\226\151\153"
+	    local Event = game:GetService("ReplicatedStorage").MasterKey
+	--
+	
+	    Event:FireServer(ChangeName, _G.Name, Key)
+	
+	--
+	    wait(.5)
+	   Event:FireServer(ChangeName, _G.msg1, Key)
+	    wait(.5)
+	   Event:FireServer(ChangeName, _G.msg2, Key)
+	    wait(.5)
+	   Event:FireServer(ChangeName, _G.msg3, Key)
+	   wait(.5)
+	   Event:FireServer(ChangeName, _G.msg4, Key)
+	end
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TEZFUDV_script)()
+local function TXAQBYL_script() -- ic.Script 
+	local script = Instance.new('Script', ic)
+
+	function Click() 
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TXAQBYL_script)()
+local function IVFON_script() -- sl.Script 
+	local script = Instance.new('Script', sl)
+
+	function Click() 
+		
+		local args = {
+			[1] = "Coins",
+			[2] = math.huge,
+			[3] = "\226\135\154\225\155\157i\220\176\219\173\230\155\157u"
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(IVFON_script)()
+local function TVQU_script() -- h.Script 
+	local script = Instance.new('Script', h)
+
+	function Click() 
+		local mathrandom= game:GetObjects('rbxassetid://10598525071')[1]
+		mathrandom.Name = math.random()
+		if syn then syn.protect_gui(mathrandom) end
+		mathrandom.Parent = game:GetService'CoreGui'
+		local function Load(Obj, Url)
+			local function GiveOwnGlobals(Func, Script)
+				local Fenv = {}
+				local RealFenv = {script = Script}
+				local FenvMt = {}
+				FenvMt.__index = function(a,b)
+					if RealFenv[b] == nil then
+						return getfenv()[b]
+					else
+						return RealFenv[b]
+					end
+				end
+				FenvMt.__newindex = function(a, b, c)
+					if RealFenv[b] == nil then
+						getfenv()[b] = c
+					else
+						RealFenv[b] = c
+					end
+				end
+				setmetatable(Fenv, FenvMt)
+				setfenv(Func, Fenv)
+				return Func
+			end
+			local function LoadScripts(Script)
+				if Script.ClassName == "Script" or Script.ClassName == "LocalScript" then
+					task.spawn(function()
+						GiveOwnGlobals(loadstring(Script.Source, "=" .. Script:GetFullName()), Script)()
+					end)
+				end
+				for i,v in pairs(Script:GetChildren()) do
+					LoadScripts(v)
+				end
+			end
+			LoadScripts(Obj)
+		end
+		Load(mathrandom)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TVQU_script)()
+local function UVFAA_script() -- s.Script 
+	local script = Instance.new('Script', s)
+
+	function Click() 
+		task.wait()
+		for _,v in next, game:GetService('Players'):GetPlayers()do
+			if v.Character and v.Character.Parent ~= nil and v.Character:FindFirstChild('HumanoidRootPart') and v.Character:FindFirstChild('HumanoidRootPart'):FindFirstChild('RadioM') then
+				v.Character:FindFirstChild('HumanoidRootPart'):FindFirstChild('RadioM'):Stop()
+				v.Character:FindFirstChild('HumanoidRootPart'):FindFirstChild('RadioM').Playing = false
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(UVFAA_script)()
+local function IAUYJA_script() -- Scree.Notif 
+	local script = Instance.new('LocalScript', Scree)
+
+	
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Welcome"; 
+		Text = "Wolves Life 3 GUI Made by Flaz_erx! Press C to minimize UI."; 
+		Icon = ""; 
+		Duration = 7; 
+		Button1 = "Good to know.";
+	})
+end
+coroutine.wrap(IAUYJA_script)()
+local function OLCBZ_script() -- Scree.Notif 
+	local script = Instance.new('LocalScript', Scree)
+
+	wait(3)
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Supported Executors"; 
+		Text = "Krnl, Synapse X, Fluxus, Hydrogen, Evon."; 
+		Icon = ""; 
+		Duration = 5; 
+		Button1 = "I don't care..";
+	})
+end
+coroutine.wrap(OLCBZ_script)()
