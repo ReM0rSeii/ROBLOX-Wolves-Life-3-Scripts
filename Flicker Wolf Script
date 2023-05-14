@@ -1,3 +1,11 @@
+-- [[
+
+Original script by cryptnium, just edited it a bit.
+You will become lightbulb.
+
+]]
+
+
 _G.Toggle = true
 
 
