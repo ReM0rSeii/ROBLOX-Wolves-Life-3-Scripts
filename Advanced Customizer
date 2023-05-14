@@ -1,0 +1,2777 @@
+local AdvCustomizer = Instance.new("ScreenGui")
+local Menu = Instance.new("Folder")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local Options = Instance.new("Folder")
+local Option = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Option_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Option_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Option_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Option_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Option_6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Option_7 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Option_8 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Option_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Option_10 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Option_11 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Option_12 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Labels = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Materializer = Instance.new("Folder")
+local Frame_4 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Options_2 = Instance.new("Folder")
+local Option_13 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Option_14 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Option_15 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Option_16 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Option_17 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Option_18 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Option_19 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Option_20 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Option_21 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Option_22 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Option_23 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UponStartup = Instance.new("Folder")
+
+--Properties:
+
+AdvCustomizer.Name = "AdvCustomizer"
+AdvCustomizer.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AdvCustomizer.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+AdvCustomizer.ResetOnSpawn = false
+
+Menu.Name = "Menu"
+Menu.Parent = AdvCustomizer
+
+Frame.Parent = Menu
+Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame.BorderSizePixel = 6
+Frame.Position = UDim2.new(0.302382916, 0, 0.324691355, 0)
+Frame.Size = UDim2.new(0, 481, 0, 283)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_2.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame_2.BorderSizePixel = 6
+Frame_2.Position = UDim2.new(0.00763332844, 0, 0.0206549, 0)
+Frame_2.Size = UDim2.new(0, 466, 0, 265)
+
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_3.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame_3.BorderSizePixel = 6
+Frame_3.Position = UDim2.new(0.51428014, 0, -0.00999214593, 0)
+Frame_3.Size = UDim2.new(0, 226, 0, 267)
+
+Options.Name = "Options"
+Options.Parent = Frame_2
+
+Option.Name = "Option"
+Option.Parent = Options
+Option.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option.BackgroundTransparency = 0.650
+Option.Position = UDim2.new(0.533063352, 0, 0.0402367935, 0)
+Option.Size = UDim2.new(0, 208, 0, 16)
+Option.Font = Enum.Font.FredokaOne
+Option.Text = "Enable Ears"
+Option.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option.TextScaled = true
+Option.TextSize = 14.000
+Option.TextWrapped = true
+
+UICorner_3.Parent = Option
+
+Option_2.Name = "Option"
+Option_2.Parent = Options
+Option_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_2.BackgroundTransparency = 0.650
+Option_2.Position = UDim2.new(0.533063352, 0, 0.127235845, 0)
+Option_2.Size = UDim2.new(0, 208, 0, 16)
+Option_2.Font = Enum.Font.FredokaOne
+Option_2.Text = "Disable DWings"
+Option_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_2.TextScaled = true
+Option_2.TextSize = 14.000
+Option_2.TextWrapped = true
+
+UICorner_4.Parent = Option_2
+
+Option_3.Name = "Option"
+Option_3.Parent = Options
+Option_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_3.BackgroundTransparency = 0.650
+Option_3.Position = UDim2.new(0.533063352, 0, 0.21101293, 0)
+Option_3.Size = UDim2.new(0, 208, 0, 16)
+Option_3.Font = Enum.Font.FredokaOne
+Option_3.Text = "Disable Inner DWings"
+Option_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_3.TextScaled = true
+Option_3.TextSize = 14.000
+Option_3.TextWrapped = true
+
+UICorner_5.Parent = Option_3
+
+Option_4.Name = "Option"
+Option_4.Parent = Options
+Option_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_4.BackgroundTransparency = 0.650
+Option_4.Position = UDim2.new(0.533063352, 0, 0.298011988, 0)
+Option_4.Size = UDim2.new(0, 208, 0, 16)
+Option_4.Font = Enum.Font.FredokaOne
+Option_4.Text = "Disable Inner Ocean"
+Option_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_4.TextScaled = true
+Option_4.TextSize = 14.000
+Option_4.TextWrapped = true
+
+UICorner_6.Parent = Option_4
+
+Option_5.Name = "Option"
+Option_5.Parent = Options
+Option_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_5.BackgroundTransparency = 0.650
+Option_5.Position = UDim2.new(0.533063352, 0, 0.385010928, 0)
+Option_5.Size = UDim2.new(0, 208, 0, 16)
+Option_5.Font = Enum.Font.FredokaOne
+Option_5.Text = "Disable Ocean"
+Option_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_5.TextScaled = true
+Option_5.TextSize = 14.000
+Option_5.TextWrapped = true
+
+UICorner_7.Parent = Option_5
+
+Option_6.Name = "Option"
+Option_6.Parent = Options
+Option_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_6.BackgroundTransparency = 0.650
+Option_6.Position = UDim2.new(0.533063352, 0, 0.819105387, 0)
+Option_6.Size = UDim2.new(0, 208, 0, 16)
+Option_6.Font = Enum.Font.FredokaOne
+Option_6.Text = "Become Invisible"
+Option_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_6.TextScaled = true
+Option_6.TextSize = 14.000
+Option_6.TextWrapped = true
+
+UICorner_8.Parent = Option_6
+
+Option_7.Name = "Option"
+Option_7.Parent = Options
+Option_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_7.BackgroundTransparency = 0.650
+Option_7.Position = UDim2.new(0.533063352, 0, 0.906104565, 0)
+Option_7.Size = UDim2.new(0, 208, 0, 16)
+Option_7.Font = Enum.Font.FredokaOne
+Option_7.Text = "Become Visible"
+Option_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_7.TextScaled = true
+Option_7.TextSize = 14.000
+Option_7.TextWrapped = true
+
+UICorner_9.Parent = Option_7
+
+Option_8.Name = "Option"
+Option_8.Parent = Options
+Option_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_8.BackgroundTransparency = 0.650
+Option_8.Position = UDim2.new(0.533063352, 0, 0.552564859, 0)
+Option_8.Size = UDim2.new(0, 208, 0, 16)
+Option_8.Font = Enum.Font.FredokaOne
+Option_8.Text = "Disable DHorns"
+Option_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_8.TextScaled = true
+Option_8.TextSize = 14.000
+Option_8.TextWrapped = true
+
+UICorner_10.Parent = Option_8
+
+Option_9.Name = "Option"
+Option_9.Parent = Options
+Option_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_9.BackgroundTransparency = 0.650
+Option_9.Position = UDim2.new(0.533063352, 0, 0.468787998, 0)
+Option_9.Size = UDim2.new(0, 208, 0, 16)
+Option_9.Font = Enum.Font.FredokaOne
+Option_9.Text = "Disable Back Legs"
+Option_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_9.TextScaled = true
+Option_9.TextSize = 14.000
+Option_9.TextWrapped = true
+
+UICorner_11.Parent = Option_9
+
+Option_10.Name = "Option"
+Option_10.Parent = Options
+Option_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_10.BackgroundTransparency = 0.650
+Option_10.Position = UDim2.new(0.533063352, 0, 0.638092518, 0)
+Option_10.Size = UDim2.new(0, 208, 0, 16)
+Option_10.Font = Enum.Font.FredokaOne
+Option_10.Text = "Disable Limbs"
+Option_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_10.TextScaled = true
+Option_10.TextSize = 14.000
+Option_10.TextWrapped = true
+
+UICorner_12.Parent = Option_10
+
+Option_11.Name = "Option"
+Option_11.Parent = Options
+Option_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_11.BackgroundTransparency = 0.650
+Option_11.Position = UDim2.new(0.533063352, 0, 0.725661039, 0)
+Option_11.Size = UDim2.new(0, 208, 0, 16)
+Option_11.Font = Enum.Font.FredokaOne
+Option_11.Text = "Enable DHorns"
+Option_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_11.TextScaled = true
+Option_11.TextSize = 14.000
+Option_11.TextWrapped = true
+
+UICorner_13.Parent = Option_11
+
+Option_12.Name = "Option"
+Option_12.Parent = Options
+Option_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_12.BackgroundTransparency = 0.650
+Option_12.Position = UDim2.new(0.711844027, 0, -0.128084466, 0)
+Option_12.Size = UDim2.new(0, 137, 0, 15)
+Option_12.Font = Enum.Font.FredokaOne
+Option_12.Text = "Open Materializer"
+Option_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_12.TextScaled = true
+Option_12.TextSize = 14.000
+Option_12.TextWrapped = true
+
+UICorner_14.Parent = Option_12
+
+Labels.Name = "Labels"
+Labels.Parent = Frame_2
+
+TextLabel.Parent = Labels
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 0.800
+TextLabel.Position = UDim2.new(-0.00839135144, 0, 0.000250589103, 0)
+TextLabel.Size = UDim2.new(0, 242, 0, 24)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Wolves Life 3 Advanced Customizer"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 45.000
+TextLabel.TextWrapped = true
+
+UICorner_15.Parent = TextLabel
+
+TextLabel_2.Parent = Labels
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.000558943022, 0, 0.0573793799, 0)
+TextLabel_2.Size = UDim2.new(0, 232, 0, 197)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "Discord: Flaz_erx#9591"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 45.000
+TextLabel_2.TextWrapped = true
+
+UICorner_16.Parent = TextLabel_2
+
+Materializer.Name = " Materializer"
+Materializer.Parent = Frame_2
+
+Frame_4.Parent = Materializer
+Frame_4.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame_4.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame_4.BorderSizePixel = 6
+Frame_4.Position = UDim2.new(1.06948709, 0, -0.174167275, 0)
+Frame_4.Size = UDim2.new(0, 186, 0, 322)
+Frame_4.Visible = false
+
+UICorner_17.Parent = Frame_4
+
+Frame_5.Parent = Frame_4
+Frame_5.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_5.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame_5.BorderSizePixel = 6
+Frame_5.Position = UDim2.new(0.0183801129, 0, 0.029680049, 0)
+Frame_5.Size = UDim2.new(0, 172, 0, 296)
+
+UICorner_18.Parent = Frame_5
+
+Options_2.Name = "Options"
+Options_2.Parent = Frame_5
+
+Option_13.Name = "Option"
+Option_13.Parent = Options_2
+Option_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_13.BackgroundTransparency = 0.650
+Option_13.Position = UDim2.new(0.0410235561, 0, 0.035837777, 0)
+Option_13.Size = UDim2.new(0, 154, 0, 18)
+Option_13.Font = Enum.Font.FredokaOne
+Option_13.Text = "Granite"
+Option_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_13.TextScaled = true
+Option_13.TextSize = 14.000
+Option_13.TextWrapped = true
+
+UICorner_19.Parent = Option_13
+
+Option_14.Name = "Option"
+Option_14.Parent = Options_2
+Option_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_14.BackgroundTransparency = 0.650
+Option_14.Position = UDim2.new(0.0410235561, 0, 0.117200278, 0)
+Option_14.Size = UDim2.new(0, 154, 0, 18)
+Option_14.Font = Enum.Font.FredokaOne
+Option_14.Text = "Neon"
+Option_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_14.TextScaled = true
+Option_14.TextSize = 14.000
+Option_14.TextWrapped = true
+
+UICorner_20.Parent = Option_14
+
+Option_15.Name = "Option"
+Option_15.Parent = Options_2
+Option_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_15.BackgroundTransparency = 0.650
+Option_15.Position = UDim2.new(0.0410235561, 0, 0.195549846, 0)
+Option_15.Size = UDim2.new(0, 154, 0, 18)
+Option_15.Font = Enum.Font.FredokaOne
+Option_15.Text = "ForceField"
+Option_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_15.TextScaled = true
+Option_15.TextSize = 14.000
+Option_15.TextWrapped = true
+
+UICorner_21.Parent = Option_15
+
+Option_16.Name = "Option"
+Option_16.Parent = Options_2
+Option_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_16.BackgroundTransparency = 0.650
+Option_16.Position = UDim2.new(0.0410235561, 0, 0.276912451, 0)
+Option_16.Size = UDim2.new(0, 154, 0, 18)
+Option_16.Font = Enum.Font.FredokaOne
+Option_16.Text = "Sandstone"
+Option_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_16.TextScaled = true
+Option_16.TextSize = 14.000
+Option_16.TextWrapped = true
+
+UICorner_22.Parent = Option_16
+
+Option_17.Name = "Option"
+Option_17.Parent = Options_2
+Option_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_17.BackgroundTransparency = 0.650
+Option_17.Position = UDim2.new(0.0410235561, 0, 0.358274937, 0)
+Option_17.Size = UDim2.new(0, 154, 0, 18)
+Option_17.Font = Enum.Font.FredokaOne
+Option_17.Text = "Salt"
+Option_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_17.TextScaled = true
+Option_17.TextSize = 14.000
+Option_17.TextWrapped = true
+
+UICorner_23.Parent = Option_17
+
+Option_18.Name = "Option"
+Option_18.Parent = Options_2
+Option_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_18.BackgroundTransparency = 0.650
+Option_18.Position = UDim2.new(0.0410235561, 0, 0.764245927, 0)
+Option_18.Size = UDim2.new(0, 154, 0, 18)
+Option_18.Font = Enum.Font.FredokaOne
+Option_18.Text = "Mud"
+Option_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_18.TextScaled = true
+Option_18.TextSize = 14.000
+Option_18.TextWrapped = true
+
+UICorner_24.Parent = Option_18
+
+Option_19.Name = "Option"
+Option_19.Parent = Options_2
+Option_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_19.BackgroundTransparency = 0.650
+Option_19.Position = UDim2.new(0.0410235561, 0, 0.845608652, 0)
+Option_19.Size = UDim2.new(0, 154, 0, 18)
+Option_19.Font = Enum.Font.FredokaOne
+Option_19.Text = "Foil"
+Option_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_19.TextScaled = true
+Option_19.TextSize = 14.000
+Option_19.TextWrapped = true
+
+UICorner_25.Parent = Option_19
+
+Option_20.Name = "Option"
+Option_20.Parent = Options_2
+Option_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_20.BackgroundTransparency = 0.650
+Option_20.Position = UDim2.new(0.0410235561, 0, 0.514973462, 0)
+Option_20.Size = UDim2.new(0, 154, 0, 18)
+Option_20.Font = Enum.Font.FredokaOne
+Option_20.Text = "Concrete"
+Option_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_20.TextScaled = true
+Option_20.TextSize = 14.000
+Option_20.TextWrapped = true
+
+UICorner_26.Parent = Option_20
+
+Option_21.Name = "Option"
+Option_21.Parent = Options_2
+Option_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_21.BackgroundTransparency = 0.650
+Option_21.Position = UDim2.new(0.0410235561, 0, 0.436624229, 0)
+Option_21.Size = UDim2.new(0, 154, 0, 18)
+Option_21.Font = Enum.Font.FredokaOne
+Option_21.Text = "Sand"
+Option_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_21.TextScaled = true
+Option_21.TextSize = 14.000
+Option_21.TextWrapped = true
+
+UICorner_27.Parent = Option_21
+
+Option_22.Name = "Option"
+Option_22.Parent = Options_2
+Option_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_22.BackgroundTransparency = 0.650
+Option_22.Position = UDim2.new(0.0410235561, 0, 0.594960153, 0)
+Option_22.Size = UDim2.new(0, 154, 0, 18)
+Option_22.Font = Enum.Font.FredokaOne
+Option_22.Text = "Metal"
+Option_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_22.TextScaled = true
+Option_22.TextSize = 14.000
+Option_22.TextWrapped = true
+
+UICorner_28.Parent = Option_22
+
+Option_23.Name = "Option"
+Option_23.Parent = Options_2
+Option_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Option_23.BackgroundTransparency = 0.650
+Option_23.Position = UDim2.new(0.0410235561, 0, 0.676855564, 0)
+Option_23.Size = UDim2.new(0, 154, 0, 18)
+Option_23.Font = Enum.Font.FredokaOne
+Option_23.Text = "Plastic"
+Option_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+Option_23.TextScaled = true
+Option_23.TextSize = 14.000
+Option_23.TextWrapped = true
+
+UICorner_29.Parent = Option_23
+
+Frame_6.Parent = Frame_4
+Frame_6.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_6.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Frame_6.BorderSizePixel = 6
+Frame_6.Position = UDim2.new(-0.172815472, 0, 0.328923643, 0)
+Frame_6.Size = UDim2.new(0, 34, 0, 115)
+
+UponStartup.Name = "UponStartup"
+UponStartup.Parent = AdvCustomizer
+
+-- Scripts:
+
+local function SXUY_script() -- Option.Script 
+	local script = Instance.new('Script', Option)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(SXUY_script)()
+local function ACMSWX_script() -- Option_2.Script 
+	local script = Instance.new('Script', Option_2)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(ACMSWX_script)()
+local function DGYLC_script() -- Option_3.Script 
+	local script = Instance.new('Script', Option_3)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(DGYLC_script)()
+local function HSDSV_script() -- Option_4.Script 
+	local script = Instance.new('Script', Option_4)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(HSDSV_script)()
+local function QUROLTZ_script() -- Option_5.Script 
+	local script = Instance.new('Script', Option_5)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(QUROLTZ_script)()
+local function IRGUCOH_script() -- Option_6.Script 
+	local script = Instance.new('Script', Option_6)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Back",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "BackFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChestFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Claws",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonClaws",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EarFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeColor",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeLid",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Fat",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Gum",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Head",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Hip",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "HumanoidRootPart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Jaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "JawFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Leftleg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWingStart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LegFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Muzzle",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Neck",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Nose",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pads",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pupils",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWingStart",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Secondary",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "TailFluff",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Torso",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "White",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "lash",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail3",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 1
+		}
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChubbyCheeks",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow2",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow1",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tooth",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "UpperTooth",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "HairF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "TorsoF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "remove",
+			[2] = "PiercingsF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+	
+		local args = {
+			[1] = "remove",
+			[2] = "FeetF"
+		}
+	
+		game:GetService("ReplicatedStorage").Accessories:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(IRGUCOH_script)()
+local function CSWHYGR_script() -- Option_7.Script 
+	local script = Instance.new('Script', Option_7)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Back",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "BackFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChestFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Claws",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonClaws",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonSecondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EarFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeColor",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "EyeLid",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Fat",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Gum",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Head",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Hip",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "InsideEars",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Jaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "JawFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArmPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Leftleg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftShoulder",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWing3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftWingStart",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LegFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Muzzle",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Neck",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Nose",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanPrimary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "OceanSecondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pads",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Pupils",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArmPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightEar",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerArm",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightShoulder",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightThigh",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWing3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightWingStart",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Secondary",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "TailFluff",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Torso",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "White",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "lash",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail3",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tail5",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 0
+		}
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "ChubbyCheeks",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Toungue1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow2",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Eyebrow1",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "Tooth",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "UpperTooth",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(CSWHYGR_script)()
+local function HLLVV_script() -- Option_8.Script 
+	local script = Instance.new('Script', Option_8)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(HLLVV_script)()
+local function WXTTE_script() -- Option_9.Script 
+	local script = Instance.new('Script', Option_9)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RighThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(WXTTE_script)()
+local function MKZR_script() -- Option_10.Script 
+	local script = Instance.new('Script', Option_10)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerLeg",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RighThigh",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightFootPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftLowerArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArmPaw",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightArm",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "RightShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		local args = {
+			[1] = "Fluff",
+			[2] = "LeftShoulder",
+			[3] = 1
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+		
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(MKZR_script)()
+local function QBCPLLK_script() -- Option_11.Script 
+	local script = Instance.new('Script', Option_11)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Fluff",
+			[2] = "DragonThird",
+			[3] = 0
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))	
+		
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(QBCPLLK_script)()
+local function KDZESRA_script() -- Option_12.function 
+	local script = Instance.new('LocalScript', Option_12)
+
+	local mats = script.Parent.Parent.Parent[" Materializer"].Frame
+	
+	script.Parent.MouseButton1Click:connect(function() 
+		if mats.Visible == false then 
+			mats.Visible = true 
+		else
+			mats.Visible = false 
+		end
+	end)
+	
+end
+coroutine.wrap(KDZESRA_script)()
+local function AVVRHVO_script() -- Option_13.Script 
+	local script = Instance.new('Script', Option_13)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Granite", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(AVVRHVO_script)()
+local function TDQAOU_script() -- Option_14.Script 
+	local script = Instance.new('Script', Option_14)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Neon", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(TDQAOU_script)()
+local function UBUTEG_script() -- Option_15.Script 
+	local script = Instance.new('Script', Option_15)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "ForceField", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(UBUTEG_script)()
+local function FLTEDX_script() -- Option_16.Script 
+	local script = Instance.new('Script', Option_16)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Sandstone", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(FLTEDX_script)()
+local function USRNFB_script() -- Option_17.Script 
+	local script = Instance.new('Script', Option_17)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Salt", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(USRNFB_script)()
+local function RNASQ_script() -- Option_18.Script 
+	local script = Instance.new('Script', Option_18)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Mud", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(RNASQ_script)()
+local function ZCALOA_script() -- Option_19.Script 
+	local script = Instance.new('Script', Option_19)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Foil", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(ZCALOA_script)()
+local function PZKDOHY_script() -- Option_20.Script 
+	local script = Instance.new('Script', Option_20)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Concrete", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(PZKDOHY_script)()
+local function MLRZIBK_script() -- Option_21.Script 
+	local script = Instance.new('Script', Option_21)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Sand", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(MLRZIBK_script)()
+local function CXDVHS_script() -- Option_22.Script 
+	local script = Instance.new('Script', Option_22)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Metal", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(CXDVHS_script)()
+local function INBPXU_script() -- Option_23.Script 
+	local script = Instance.new('Script', Option_23)
+
+	function Click() 
+	
+		local args = {
+			[1] = "Material",
+			[2] = "Plastic", --
+			[3] = {
+				[1] = "ChestFluff", --Fluff below
+				[2] = "BackFluff",
+				[3] = "LegFluff",
+				[4] = "EarFluff",
+				[5] = "TailFluff",
+				[6] = "Fat",
+				[7] = "Torso",
+				[8] = "Neck",
+				[9] = "Muzzle",
+				[10] = "Hip", -- Limbs below
+				[11] = "LeftThigh",
+				[12] = "RightThigh",
+				[13] = "LeftLeg",
+				[14] = "RightLeg",
+				[15] = "LeftLowerLeg",
+				[16] = "RightLowerLeg",
+				[17] = "LeftFootPaw",
+				[18] = "RightFootPaw",
+				[19] = "LeftArm",
+				[20] = "RightArm",
+				[21] = "RightLowerArm",
+				[22] = "LeftLowerArm",
+				[23] = "LeftArmPaw",
+				[24] = "RightArmPaw", -- Extra Parts Below
+				[25] = "DragonPrimary",
+				[26] = "OceanPrimary",
+				[27] = "OceanSecondary",
+				[28] = "DragonSecondary",
+				[29] = "RightWing2",
+				[30] = "LeftWing2",
+				[31] = "LeftWing3",
+				[32] = "RightWing3",
+				[33] = "RightWingStart",
+				[34] = "LeftWingStart", -- Body Parts Below
+				[35] = "Tail1",
+				[36] = "Tail2",
+				[37] = "Tail3",
+				[38] = "Tail4",
+				[39] = "Tail5",
+				[40] = "LeftEar",
+				[41] = "RightEar",
+				[42] = "InsideEars",
+				[43] = "Eyelid",
+				[44] = "Head",
+				[45] = "RightShoulder",
+				[46] = "LeftShoulder",
+				[47] = "JawFluff",
+				[48] = "Jaw",
+				[49] = "Secondary",
+				[50] = "Eyebrow1",
+				[51] = "Eyebrow2",
+				[52] = "DragonThird",
+				
+			}
+		}
+	
+		game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	
+	end 
+	
+	script.Parent.MouseButton1Down:connect(Click) 
+end
+coroutine.wrap(INBPXU_script)()
+local function ROFBAER_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(ROFBAER_script)()
+local function YBWWKZ_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	
+	
+	
+	local frame = script.Parent 
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); 
+	
+	mouse.KeyDown:connect(function(key) 
+		key = key:lower() 
+		if key == 'n' then 
+			frame.Visible = not frame.Visible 
+		end
+	end)
+end
+coroutine.wrap(YBWWKZ_script)()
+local function TWHW_script() -- UponStartup.Notif 
+	local script = Instance.new('LocalScript', UponStartup)
+
+	
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Welcome"; 
+		Text = "Wolves Life 3 Advanced Customizer done by Flaz_erx#9591"; 
+		Icon = ""; 
+		Duration = 9; 
+		Button1 = "Alright.";
+	})
+	wait(3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Abilites"; 
+		Text = "Press N to toggle UI."; 
+		Icon = ""; 
+		Duration = 9; 
+		Button1 = "I don't care.";
+	})
+end
+coroutine.wrap(TWHW_script)()
