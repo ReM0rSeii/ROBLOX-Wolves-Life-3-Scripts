@@ -1,0 +1,61 @@
+-- [[
+original script by cryptnium, again, just some little edits.
+]]
+
+
+local args = {
+		[1] = "Fluff",
+		[2] = "LeftLeg",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "LeftLowerLeg",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "LeftThigh",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "RightLeg",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "RightLowerLeg",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "RighThigh",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "LeftFootPaw",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	local args = {
+		[1] = "Fluff",
+		[2] = "RightFootPaw",
+		[3] = 1
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
