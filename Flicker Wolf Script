@@ -1,0 +1,127 @@
+_G.Toggle = true
+
+
+while _G.Toggle do
+	local args = {
+		[1] = "Material",
+		[2] = "Neon", --
+		[3] = {
+			[1] = "ChestFluff", --Fluff below
+			[2] = "BackFluff",
+			[3] = "LegFluff",
+			[4] = "EarFluff",
+			[5] = "TailFluff",
+			[6] = "Fat",
+			[7] = "Torso",
+			[8] = "Neck",
+			[9] = "Muzzle",
+			[10] = "Hip", -- Limbs below
+			[11] = "LeftThigh",
+			[12] = "RightThigh",
+			[13] = "LeftLeg",
+			[14] = "RightLeg",
+			[15] = "LeftLowerLeg",
+			[16] = "RightLowerLeg",
+			[17] = "LeftFootPaw",
+			[18] = "RightFootPaw",
+			[19] = "LeftArm",
+			[20] = "RightArm",
+			[21] = "RightLowerArm",
+			[22] = "LeftLowerArm",
+			[23] = "LeftArmPaw",
+			[24] = "RightArmPaw", -- Extra Parts Below
+			[25] = "DragonPrimary",
+			[26] = "OceanPrimary",
+			[27] = "OceanSecondary",
+			[28] = "DragonSecondary",
+			[29] = "RightWing2",
+			[30] = "LeftWing2",
+			[31] = "LeftWing3",
+			[32] = "RightWing3",
+			[33] = "RightWingStart",
+			[34] = "LeftWingStart", -- Body Parts Below
+			[35] = "Tail1",
+			[36] = "Tail2",
+			[37] = "Tail3",
+			[38] = "Tail4",
+			[39] = "Tail5",
+			[40] = "LeftEar",
+			[41] = "RightEar",
+			[42] = "InsideEars",
+			[43] = "Eyelid",
+			[44] = "Head",
+			[45] = "RightShoulder",
+			[46] = "LeftShoulder",
+			[47] = "JawFluff",
+			[48] = "Jaw",
+			[49] = "Secondary",
+			[50] = "Eyebrow1",
+			[51] = "Eyebrow2",
+
+		}
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	wait(0.02)
+	local args = {
+		[1] = "Material",
+		[2] = "ForceField", --
+		[3] = {
+			[1] = "ChestFluff", --Fluff below
+			[2] = "BackFluff",
+			[3] = "LegFluff",
+			[4] = "EarFluff",
+			[5] = "TailFluff",
+			[6] = "Fat",
+			[7] = "Torso",
+			[8] = "Neck",
+			[9] = "Muzzle",
+			[10] = "Hip", -- Limbs below
+			[11] = "LeftThigh",
+			[12] = "RightThigh",
+			[13] = "LeftLeg",
+			[14] = "RightLeg",
+			[15] = "LeftLowerLeg",
+			[16] = "RightLowerLeg",
+			[17] = "LeftFootPaw",
+			[18] = "RightFootPaw",
+			[19] = "LeftArm",
+			[20] = "RightArm",
+			[21] = "RightLowerArm",
+			[22] = "LeftLowerArm",
+			[23] = "LeftArmPaw",
+			[24] = "RightArmPaw", -- Extra Parts Below
+			[25] = "DragonPrimary",
+			[26] = "OceanPrimary",
+			[27] = "OceanSecondary",
+			[28] = "DragonSecondary",
+			[29] = "RightWing2",
+			[30] = "LeftWing2",
+			[31] = "LeftWing3",
+			[32] = "RightWing3",
+			[33] = "RightWingStart",
+			[34] = "LeftWingStart", -- Body Parts Below
+			[35] = "Tail1",
+			[36] = "Tail2",
+			[37] = "Tail3",
+			[38] = "Tail4",
+			[39] = "Tail5",
+			[40] = "LeftEar",
+			[41] = "RightEar",
+			[42] = "InsideEars",
+			[43] = "Eyelid",
+			[44] = "Head",
+			[45] = "RightShoulder",
+			[46] = "LeftShoulder",
+			[47] = "JawFluff",
+			[48] = "Jaw",
+			[49] = "Secondary",
+			[50] = "Eyebrow1",
+			[51] = "Eyebrow2",
+
+		}
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+	wait()
+end
